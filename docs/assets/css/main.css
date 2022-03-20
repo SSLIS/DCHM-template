@@ -4,6 +4,28 @@ body {
 	padding: 1vw;
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
-	font-size: 5vw;
+	font-size: 1vw;
   width: 100%;
+	}
+
+h1, h2, h3, nav, footer {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 1vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 1vw;
+    
+}
+
+  img.copyright_logo {
+		width: 1vw;
+		margin:.15vw;
 	}
