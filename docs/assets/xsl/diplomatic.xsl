@@ -31,11 +31,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
-                    <a href="mary.html">Mary's Text</a> |
-                    <a href="percy.html">Percy's Modifications</a>
+                    <a href="diplomatic.html">Diplomatic Transcription</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -44,10 +40,11 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                               <article id="facsmile">
-                                <img width="600">
+                               <article id="scan">
+                                   <h3>Scanned Image</h3>
+                                <img width="400">
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='f21r_full']/@url"/>
+                                        <xsl:value-of select="//tei:surface[@xml:id='p01']//tei:graphic/@url"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
                                         <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='f21r']//tei:label"/>
@@ -61,6 +58,7 @@
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
+                                    <h3>Transcription</h3>
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                 </article>
                             </div>
@@ -100,8 +98,8 @@
     apply to the nodes nested within it.-->
 
     <!-- we turn the tei head element (headline) into an html h1 element-->
-    <xsl:2emplate match="tei:head">
-        <h1>
+    <xsl:template match="tei:head">
+        <h2>
             <xsl:apply-templates/>
         </h2>
     </xsl:template>

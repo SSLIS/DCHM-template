@@ -6,9 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Manuscript of Frankenstein: TEI Transcription</title>
+            <title>Frankenstein, or the Modern Prometheus: TEI Transcription</title>
             <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
-            <editor corresp="#PBS">Percy Bysshe Shelley</editor>
             <principal>Wout Dillen</principal>
          </titleStmt>
          <publicationStmt>
@@ -48,86 +47,54 @@
       <profileDesc>
          <handNotes>
             <handNote xml:id="MWS" medium="black-ink">Original text and authorial modifications by Mary Wollstonecraft Shelley</handNote>
-            <handNote xml:id="PBS" medium="black-ink">Modifications made by Mary Wollstonecraft Shelley's husband Percy Bysshe Shelley</handNote>
-            <handNote xml:id="archivist" medium="pencil">Penciled annotations made presumably by an archivist to indicate the relevant folio number</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="f21r">
+      <surface xml:id="p01">
          <figure>
-            <label>MS. Abinger c.56, f21r</label>
+            <label>page 01</label>
             <figDesc>
-               A scan of a handwritten document written by Mary Wollstonecraft Shelley. This scan depicts Folio 21r of Notebook A, one of 
-               two notebooks in which the author drafted the two-volume version of Frankenstein. This page in the notebook indicates the 
-               start of the seventh chapter in this draft of the novel, where Victor Frankenstein beholds his completed creature for the first time.
+               A scan of the iphone version of the eBook of Project Gutenburg's text of Mary Shelley's Frankenstein, or the Modern Prometheus.
             </figDesc>
-            <graphic xml:id="f21r_full" url="https://iiif.bodleian.ox.ac.uk/iiif/image/5359a811-63e4-49d7-8cc1-e6b4308a7969/full/full/0/default.jpg"/>
-            <graphic xml:id="f21r_thumb" url="https://iiif.bodleian.ox.ac.uk/iiif/image/5359a811-63e4-49d7-8cc1-e6b4308a7969/full/100,/0/default.jpg"/>
+            <graphic xml:id="p01_full" url="../collection/img/01.PNG"/>            
          </figure>
       </surface>
    </facsimile>
    <text>
       <body>
          <div n="v1-c4">
-            <pb facs="#f21r_full"/>
-            <metamark function="pagenumber" place="top-right"><hi rend="circled"><num>45</num></hi></metamark>
-            <metamark function="folionumber" place="top-right"><add hand="archivist"><num>21</num></add></metamark>
+            <pb facs="#p01"/>
             <head>
-               Chapter 7<hi rend="sup"><hi rend="u">th</hi></hi>
+               Chapter VI.
             </head>
             <p> 
-               <lb/>It was on a dreary night of November
-               <lb/>that I beheld <del type="strikethrough" hand="#PBS">
-                  <add place="above" hand="#PBS">the frame on whic</add></del> 
-               my man comple<del type="overwritten" hand="#PBS">te</del><add place="overwritten" hand="#PBS">ated</add><del type="overwritten" hand="#PBS">.</del><add place="overwritten" hand="#PBS">,</add>
-               <del type="strikethrough" hand="#PBS">And</del>
-               <lb/>with an anxiety that almost amount<lb rend="split"/>ed to agony I collected instruments of life
-               <lb/>around me <del type="strikethrough" hand="#MSW">and
-                  endeavour to</del>
-               <add place="above" hand="#PBS">that I might</add>
-               <del type="overwritten" hand="#PBS">e</del>
-               <add place="overwritten" hand="#PBS">i</add>nfuse a
-               <lb/>spark of being into the lifeless thin<del type="overwritten" hand="#MSW"
-                  >k</del><add place="overwritten" hand="#MSW"
-                     >g</add>
-               <lb/>that lay at my feet. It was already
-               <lb/>one in the morning, the rain pattered
-               <lb/>dismally against the window panes, &amp;
-               <lb/>my candle was nearly burnt out, when
-               <lb/>by the glimmer of the half
-               extinguish<lb rend="split"/>ed light I saw the dull yellow eye of
-               <lb/>the creature
-               open<del type="overwritten" hand="#PBS">.</del>
-               <add place="overwritten" hand="#PBS">—</add>It breathed hard,
-               <lb/>and a convulsive motion agitated
-               <lb/>its limbs.
+               <lb/>It was on a dreary night of November,
+               <lb/>that I beheld the accomplishment of my
+               <lb/>toils. With an anciety that almost
+               <lb/>amounted to agony, I collected the instru-
+               <lb/>ments of life around me, that might
+               <lb/>infuse a spark of being into the lifeles
+               <lb/>thing that lay at my feet. It was already
+               <lb/>one in the morning; the rain pattered dis-
+               <lb/>mally against the panes, and my candle
+               <lb/>was nearly burnt out, when by the glim-
+               <lb/>mer of the half-extinguished light, I saw
+               <lb/>the dull yellow eye of the creature open; it
+               <lb/>breathed hard, and a concvulsive motion
+               <lb/>agitated its limbs.
             </p>
             <p>
-               <lb/><del type="strikethrough" hand="#MSW">But how</del> How can I
-               describe my
-               <lb/>emotion at this catastrophe; or how deli<lb rend="split"/>neate the wretch whom with such
-               <lb/>infinite pains and care I had endeavoured
-               <lb/>to form. His limbs were in proportion
-               <lb/>and I had selected his features <del
-                  type="strikethrough" hand="#MSW">h</del> as
-               <lb/><del type="strikethrough" hand="#MSW">handsome</del>
-               <del type="strikethrough" hand="#PBS"><add place="margin"
-                  hand="#MSW">handsome</add></del>
-               <add type="above" hand="#PBS">beautiful</add>. 
-               <del type="strikethrough" hand="#PBS">Handsome</del>
-               <add place="above" hand="#PBS">Beautiful</add>; Great God! His
-               <lb/><del type="strikethrough" hand="#MSW">dun</del>
-               <add place="margin" hand="#MSW">yellow</add> skin
-               scarcely covered the work of
-               <lb/>muscles and arteries beneath; his hair
-               <lb/>was <add place="margin" hand="#MSW">of a lustrous black
-                  &amp;</add> flowing and his teeth of a pearly white<lb rend="split"/>ness but these
-               luxurianc<add place="intralinear" hand="#MS" rend="blackink" resp="#WD">i</add>es
-               only <del type="crossedOut" hand="#MS" rend="blackink" resp="#WD">fomed</del>
-               <lb/>formed a more horrid contrast with his watry eyes that seemed almost of 
-               <lb/>the same colour as the dun white 
-               <lb/>sockets in which they were set, 
+               <lb/>How can I describe my emotions at this
+               <lb/>catastrophe, or how delineate the wretch
+               <lb/>whom with such infinite pains and care I
+               <lb/>had endeavoured to form? His limbs were
+               <lb/>in proportion, and I had selected his fea-
+               <lb/>tures as beautiful. Beautiful!–––Great God!
+               <lb/>His yellow skin scarcely covered the work
+               <lb/>of muscles and arteries beneath; his hair
+               <lb/>was of a lustrous black, and flowing; his
+               <lb/>teeth of a pearly whiteness; but these lux-
             </p>
          </div>
       </body>
