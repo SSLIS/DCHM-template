@@ -34,8 +34,6 @@
                     <a href="diplomatic.html">Diplomatic Transcription</a> |
                     <a href="reading.html">Reading Text</a> |
                     <a href="toplayer.html">Top Layer</a> |
-                    <a href="mary.html">Mary's Text</a> |
-                    <a href="percy.html">Percy's Modifications</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -47,13 +45,13 @@
                                <article id="thumbnail">
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='f21r_thumb']/@url"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='postit01_thumb']/@url"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='f21r']//tei:label"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='f21r']//tei:figDesc"/>
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
                                     </xsl:attribute>
                                 </img>
                                </article>
@@ -76,31 +74,8 @@
                                         <xsl:apply-templates select="//tei:TEI//tei:author"/>
                                       </p>
                                       <p>
-                                        <strong>Modifications by:</strong><br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:editor"/>
-                                      </p>
-                                      <p>
                                         <strong>Transcription by:</strong><br/>
                                         <xsl:apply-templates select="//tei:TEI//tei:principal"/>
-                                      </p>
-                                      <p>
-                                        <strong>Based on the work of:</strong><br/>
-                                        <a href="http://shelleygodwinarchive.org">The Shelley Godwin Archive</a>
-                                      </p>
-                                      <p>
-                                          <strong>Holding Library:</strong><br/>
-                                          <a href="https://www.bodleian.ox.ac.uk/home">
-                                              <xsl:apply-templates select="//tei:TEI//tei:msIdentifier/tei:institution"/>
-                                          </a>
-                                      </p>
-                                      <p>
-                                        <strong>Manuscript:</strong><br/>
-                                        <a>
-                                          <xsl:attribute name="href">
-                                              <xsl:value-of select="//tei:TEI/tei:idno"/>
-                                          </xsl:attribute>
-                                          <xsl:apply-templates select="//tei:TEI//tei:msName"/>
-                                        </a>
                                       </p>
                                     </article>
                                 </div>
@@ -110,12 +85,12 @@
                 <footer>
                 <div class="row" id="footer">
                   <div class="col-sm copyright">
-                  		<div>
+                  		<div class="copyright_logos">
                   			<a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                   				<img src="assets/img/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
                   			</a>
                   		</div>
-                  		<div>
+                  		<div class="copyright_text">
                          2022 Wout Dillen.
                       </div>
                     </div>
@@ -124,71 +99,4 @@
             </body>
         </html>
     </xsl:template>
-
-    <!-- by default all text nodes are printed out, unless something else is defined.
-    We don't want to show the metadata. So we write a template for the teiHeader that
-    stops the text nodes underneath (=nested in) teiHeader from being printed into our
-    html-->
-    <xsl:template match="tei:teiHeader"/>
-
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template>
-    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
-    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
-    apply to the nodes nested within it.-->
-
-    <!-- we turn the tei head element (headline) into an html h1 element-->
-    <xsl:template match="tei:head">
-        <h2>
-            <xsl:apply-templates/>
-        </h2>
-    </xsl:template>
-
-    <!-- transform tei paragraphs into html paragraphs -->
-    <xsl:template match="tei:p">
-        <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
-            <xsl:apply-templates/>
-        </u>
-    </xsl:template>
-
-    <!-- transform tei hi (highlighting) with the attribute @rend="sup" into superscript -->
-    <xsl:template match="tei:hi[@rend = 'sup']">
-        <span style="vertical-align:super; font-size:80%;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <xsl:template match="tei:hi[@rend = 'circled']">
-        <span style="border:1px solid black;border-radius:50%">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-
-
 </xsl:stylesheet>

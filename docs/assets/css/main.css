@@ -19,13 +19,38 @@ nav {
     padding: 1vw;
 }
 
+h2 {
+    padding: 1vw;
+}
+
 h3 {
     font-weight: bold;
     padding: 1vw;
     
 }
 
-  img.copyright_logo {
+#details {
+    padding: 2vw;
+    margin: 1vw;
+    text-align: center;    
+}
+
+footer {
+    border-top: 1px solid black;
+    padding-top: 1vw;
+    margin-top: 1vw;
+}
+
+.copyright {
+    width: 50%;
+    margin: auto;
+}
+
+.copyright_logos, .copyright_text {
+    display: inline;
+}
+
+.copyright_logo {
 		width: 1vw;
 		margin:.15vw;
 	}

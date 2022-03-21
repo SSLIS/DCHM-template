@@ -2,12 +2,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>DCHM Template Example</title>
+            <title>DCHM Template</title>
             <author corresp="#WD">Wout Dillen</author>
             <principal>Wout Dillen</principal>
          </titleStmt>
@@ -37,9 +36,10 @@
          <figure>
             <label>Post-It 01</label>
             <figDesc>
-               A scan of the iphone version of the eBook of Project Gutenburg's text of Mary Shelley's Frankenstein, or the Modern Prometheus.
+               A photograph of a post-it with a simple example phrase.
             </figDesc>
-            <graphic xml:id="postit01_full" url="../collection/img/postit01.PNG"/>            
+            <graphic xml:id="postit01_full" url="../collection/img/postit01.PNG"/>  
+            <graphic xml:id="postit01_thumb" url="../collection/img/thumbs/postit01_thumb.PNG"/>
          </figure>
       </surface>
    </facsimile>
