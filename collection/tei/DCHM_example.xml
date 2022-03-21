@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>DCHM Template</title>
+            <author corresp="#WD">Wout Dillen</author>
+            <principal>Wout Dillen</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>University of Borås</publisher>
+            <date>March 2022</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+               <p>A post-it with a simple example phrase on it</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="postit01">
+         <figure>
+            <label>Post-It 01</label>
+            <figDesc>
+               A photograph of a post-it with a simple example phrase.
+            </figDesc>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+            <pb facs="#postit01"/>
+            <head>
+               <hi rend="u">DCHM Template</hi>
+            </head>
+            <p>
+               A <del>silly</del> <add>small</add> example
+               <lb/>text.
+            </p>
+      </body>
+   </text>
+</TEI>
