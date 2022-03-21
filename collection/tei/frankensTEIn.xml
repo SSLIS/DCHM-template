@@ -2,12 +2,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Frankenstein, or the Modern Prometheus: TEI Transcription</title>
-            <author corresp="#MWS">Mary Wollstonecraft Shelley</author>
+            <title>DCHM Template Example</title>
+            <author corresp="#WD">Wout Dillen</author>
             <principal>Wout Dillen</principal>
          </titleStmt>
          <publicationStmt>
@@ -16,87 +17,42 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
-                     Original text authored by Mary Shelley (1816), and currently in the public domain. 
                      Transcription distributed under a CC-BY-SA 4.0 license.
                   </p>
                </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <settlement>Oxford</settlement>
-                  <institution>Bodleian Libraries</institution>
-                  <msName>MS. Abinger c.56</msName>
-                  <altIdentifier>
-                     <idno type="URI">https://digital.bodleian.ox.ac.uk/objects/53fd0f29-d482-46e1-aa9d-37829b49987d/</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <msContents>
-                  <summary>
-                     Bodleian MS. Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally bound in Notebook A, 
-                     one of two now disbound notebooks in which Mary W. Shelley (MWS) drafted the two-volume version of Frankenstein. 
-                     The draft in c.56 runs from the beginning to the end of Volume I, concluding just as the Creature is about to 
-                     begin his tale to Victor.
-                  </summary>
-                  <textLang>English</textLang>
-               </msContents>
-            </msDesc>
+               <p>A post-it with a simple example phrase on it</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="MWS" medium="black-ink">Original text and authorial modifications by Mary Wollstonecraft Shelley</handNote>
+            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
          </handNotes>
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="p01">
+      <surface xml:id="postit01">
          <figure>
-            <label>page 01</label>
+            <label>Post-It 01</label>
             <figDesc>
                A scan of the iphone version of the eBook of Project Gutenburg's text of Mary Shelley's Frankenstein, or the Modern Prometheus.
             </figDesc>
-            <graphic xml:id="p01_full" url="../collection/img/01.PNG"/>            
+            <graphic xml:id="postit01_full" url="../collection/img/postit01.PNG"/>            
          </figure>
       </surface>
    </facsimile>
    <text>
       <body>
-         <div n="v1-c4">
-            <pb facs="#p01"/>
+            <pb facs="#postit01"/>
             <head>
-               Chapter VI.
+               <hi rend="u">DCHM Template</hi>
             </head>
             <p> 
-               <lb/>It was on a dreary night of November,
-               <lb/>that I beheld the accomplishment of my
-               <lb/>toils. With an anciety that almost
-               <lb/>amounted to agony, I collected the instru-
-               <lb/>ments of life around me, that might
-               <lb/>infuse a spark of being into the lifeles
-               <lb/>thing that lay at my feet. It was already
-               <lb/>one in the morning; the rain pattered dis-
-               <lb/>mally against the panes, and my candle
-               <lb/>was nearly burnt out, when by the glim-
-               <lb/>mer of the half-extinguished light, I saw
-               <lb/>the dull yellow eye of the creature open; it
-               <lb/>breathed hard, and a concvulsive motion
-               <lb/>agitated its limbs.
+               A <del>silly</del> <add>small</add> example
+               <lb/>text.
             </p>
-            <p>
-               <lb/>How can I describe my emotions at this
-               <lb/>catastrophe, or how delineate the wretch
-               <lb/>whom with such infinite pains and care I
-               <lb/>had endeavoured to form? His limbs were
-               <lb/>in proportion, and I had selected his fea-
-               <lb/>tures as beautiful. Beautiful!–––Great God!
-               <lb/>His yellow skin scarcely covered the work
-               <lb/>of muscles and arteries beneath; his hair
-               <lb/>was of a lustrous black, and flowing; his
-               <lb/>teeth of a pearly whiteness; but these lux-
-            </p>
-         </div>
       </body>
    </text>
 </TEI>
