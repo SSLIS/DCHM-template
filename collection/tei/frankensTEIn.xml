@@ -38,8 +38,8 @@
             <figDesc>
                A photograph of a post-it with a simple example phrase.
             </figDesc>
-            <graphic xml:id="postit01_full" url="../collection/img/postit01.PNG"/>  
-            <graphic xml:id="postit01_thumb" url="../collection/img/thumbs/postit01_thumb.PNG"/>
+            <graphic xml:id="postit01_full" url="../collection/img/postit01.png"/>  
+            <graphic xml:id="postit01_thumb" url="../collection/img/thumbs/postit01_thumb.png"/>
          </figure>
       </surface>
    </facsimile>
