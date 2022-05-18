@@ -2,10 +2,11 @@
 
 body {
 	padding: 1vw;
-	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+	font-family: Garamond, serif;
 	line-height: 1.25;
 	font-size: 1vw;
   width: 100%;
+  background-color: #FFFAFA;
 	}
 
 h1, h2, h3, nav, footer {
@@ -14,10 +15,17 @@ h1, h2, h3, nav, footer {
 
 nav {
     margin-bottom: 1vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 1vw;
+    border-top: double;
+    border-bottom: double;
+    padding: 1vw;   
 }
+
+a {
+    color:black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
 
 h2 {
     padding: 1vw;
@@ -36,7 +44,7 @@ h3 {
 }
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1.5px solid black;
     padding-top: 1vw;
     margin-top: 1vw;
 }
