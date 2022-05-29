@@ -13,6 +13,18 @@ h1, h2, h3, nav, footer {
     text-align: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 5%;
+}
+.grid-item {
+  border: none;
+  padding: 5%;
+  font-size: 30px;
+  text-align: center;
+}
+
 nav {
     margin-bottom: 1vw;
     border-top: double;
@@ -32,7 +44,6 @@ h2 {
 }
 
 h3 {
-    font-weight: bold;
     padding: 1vw;
     
 }
@@ -41,6 +52,20 @@ h3 {
     padding: 2vw;
     margin: 1vw;
     text-align: center;    
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5%;
+}
+
+.row {}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer {
@@ -62,3 +87,9 @@ footer {
 		width: 1vw;
 		margin:.15vw;
 	}
+	
+	
+article img {
+    width: 100%;
+    height: auto;
+}
