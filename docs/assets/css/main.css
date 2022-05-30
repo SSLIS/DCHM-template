@@ -1,39 +1,33 @@
 
 
 body {
-	padding: 1vw;
-	font-family: Garamond, serif;
-	line-height: 1.25;
-	font-size: 1vw;
-  width: 100%;
-  background-color: #FFFAFA;
-	}
+    padding: 1vw;
+    font-family: Garamond, serif;
+    line-height: 1.25;
+    font-size: 1vw;
+    width: 100%;
+    background-color: #FFFAFA;
+}
 
-h1, h2, h3, nav, footer {
+h1,
+h2,
+h3,
+nav, footer {
     text-align: center;
+    padding: 1vw
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-  padding: 5%;
-}
-.grid-item {
-  border: none;
-  padding: 5%;
-  font-size: 30px;
-  text-align: center;
-}
+
 
 nav {
     margin-bottom: 1vw;
     border-top: double;
     border-bottom: double;
-    padding: 1vw;   
+    padding: 1vw;
 }
 
 a {
-    color:black;
+    color: black;
     font-size: 1.5vw;
     font-weight: bold;
 }
@@ -45,33 +39,54 @@ h2 {
 
 h3 {
     padding: 1vw;
-    
-}
+    }
 
 #details {
     padding: 2vw;
     margin: 1vw;
-    text-align: center;    
+    text-align: center;
 }
+
 
 .column {
-  float: left;
-  width: 50%;
-  padding: 5%;
+    float: left;
+    width: 50%;
+    padding: 5%;
 }
 
-.row {}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    text-align:center;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+}
+.grid-item {
+    border: none;
+    padding: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+
 
 footer {
     border-top: 1.5px solid black;
     padding-top: 1vw;
     margin-top: 1vw;
+    text-align: center;
 }
 
 .copyright {
@@ -79,17 +94,13 @@ footer {
     margin: auto;
 }
 
-.copyright_logos, .copyright_text {
+.copyright_logos,
+.copyright_text {
     display: inline;
 }
 
 .copyright_logo {
-		width: 1vw;
-		margin:.15vw;
-	}
-	
-	
-article img {
-    width: 100%;
-    height: auto;
+    width: 1vw;
+    margin: .15vw;
 }
+
