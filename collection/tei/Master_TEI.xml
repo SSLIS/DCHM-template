@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -15,14 +15,18 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
+      
+      <front></front>
       <body>
          
          
          <!--page 1 (sb_03) -->
          
-         <div type="section" n="1.1">
+         
+         <div type="article" n="1.1">
+            
             <p>CHAMPIONSHIP CHALLENGER . . . Dublin rider Ian Williams
                (Ariel) who rides in to-morrow’s Hurst Cup International Trial
                at Conling, Belfast.
@@ -141,19 +145,15 @@
                Sun- F. C. Dickson, E. Rice.
                Triumph-S. Spence, P. H. Alves,
                J. Giles, J. E. Wicken.</p>
-            </div>
-               
-               
-               <div type= "section" n= "1.2"><p>"B.B.. RUSSEL" TROPHY: The winner this year is Ian
-               deserved, he was placed at every meeting except the
-               20 1/2 points. Runner-up is Ernie Lyons who won the cup
-               with 15 1/2 points; followed by D. C. Ewen, 8 points; F
-               C. Coard, E. Callaghan and M. Tracey with 6 points.</p></div>
-               
-               
-               
-               
-               <div type= "section" n="1.3"><p>Slade Scramble
+         </div>
+         <div type="article" n="1.2">
+            <p> "B.B.. RUSSEL" TROPHY: The winner this year is Ian deserved, he was placed at every
+               meeting except the 20 1/2 points. Runner-up is Ernie Lyons who won the cup with 15
+               1/2 points; followed by D. C. Ewen, 8 points; F C. Coard, E. Callaghan and M. Tracey
+               with 6 points.</p>
+         </div>
+         <div type="article" n="1.3">
+            <p> Slade Scramble
                By BASIL BRINDLEY
                LONG handicap man, Stan Tracey,
                scored a comfortable win from
@@ -185,53 +185,525 @@
                Childs (Ariel) (58) (25) (70) (487) ; 2,
                G. F. Scarlett (Dot) (46) (1) (10)
                (463); D. Cullen (Norton) (88) (1)
-               (501) (461).</p></div>
+               (501) (461).
+            </p>
+         </div>
+
+
+         <!--page 2 (sb_04) -->
+         
+         <div <!--add in type - handwritten--> n="2.1">
+            <p>SMILES FROM DAVID TYE AND 
+               MYSELF AT BRAY SCRAMBLE</p>
+
+         <div type="article" n="2.2">
+            <p>Ian Williams 
+               Beats Brother
                
-           
+               IAN WILLIAMS returned to grass
+               track racing in sparkling form
+               and at the Dublin University grass
+               track races at Powerscourt yester-
+               day his victories included an
+               exciting finish in the handicap final
+               where he beat his brother Eric by
+               half a wheel.	
+               Graded Scratch Race A — 1. K.
+               Cotter (248 Excelsior); 2, M. D.
+               Thornton (197 Dot);	3, J. D.
+               Poynton (197 Dot). 5 mips. 42 secs.
+               Graded Scratch Race B — 1, G. F.
+               Scarlett (197 Dot); 2, F. C. Dickson
+               (197 Dot); 3, J. Barkley (197 Dot).
+               5 mins 28 secs. Graded Scratch
+               Race C—1, R. Williams (197 Aerial);
+               2 E. Williams (497 Aerial); 3, D. J.
+               Dixon (344 Norton Jap). 5 mins.
+               5 secs.
+               Open Handicap- Heat 1 - 1 W.
+               Hogan (197 Dot); 2, I. Williams
+               497 Aerial); 3 L, Armstrong (500
+               Jap). 5 mins. 47 secs. Heat 2—1.
+               F. C. Dixon (197 Dot); 2. S. Foody
+               (348 B.S.A.); 3. J- D. Roche (348
+               B.S.A.). 5 mins. 22 secs. Heat 0—
+               I E Williams (497 Aerial); 2, G. B.
+               S-arlett (197 Dot): 3. K. Cotter (244
+               Excelsior). 5 mins. 7 secs. Handi-
+               can Final — 1. I Williams (497
+               Aerial); 2 E. Williams (497 Aerial);
+               3, G. F. Scarlett (197 Dot). 5 mins.
+               dead.
+               250 c.c. Scratch Race—Heat 1—
+               Pearson (248 N.S.U.). Heat
+               1s. D. Pearson (248 N.S.U.). Heat
+               2- G. F. Scarlett (197 Dot.). Final
+               __1, G. F. Scarlett (197 Dot.); 2. F
+               C. ’Dickson (197 Dot.): 3. D. Pear-
+               son (248 N.S.U.). 5 mins. 17s.
+               350 c.c. scratch race—1, D. Dixon
+               (344 Norton Jap.); 2, S. Foody
+               (348 B.S.A.); 3, W. E. Harris (348
+               B.S.A.). 5 mins. 11s. 500 c.c. scratch
+               race—1. I. Williams (497 Aerial); 2,
+               E. Williams (497 Ariel); 3, J. Porter
+               (500 Jap.). 4 mins 58 secs.
+               
+               Results of Autocross
+               
+               THE M.G. Car Club held an
+               autocross At Lynch Dark. Sag-
+               gart, Co. Dublin yesterday. The
+               course was 1/2 mile long and each
+               race was over 4 laps. Results: -
+               Saloon Class — Scratch — J. C.
+               Millarad (Fiat 600). 4 mins. 17 secs.
+               Handicap—Miss E. Penston (V.W.),
+               4 mins. 22 secs.	,
+               Open Class—Scratch—M. Hayes
+               (Triumph TR2). 4 mins, 46 secs.
+               Handicap—M. Kennedy (Triumph
+               TR2). 4 mins. 45 secs.
+               Specials—Scratch—B. K. Hood
+               (Ford Special), 4 mins. 9 secs.
+               Handicap—S. V. Baker (Ford
+               Special). 4 mins. 17 secs; R. Red-
+               mond (Ford Special), 4 mms. 18
+               secs.
+            </p>
+         </div>
          
          
+         <!--page 3 (sb_06) -->
          
-         <!--page 1 (sb_04) -->
-         <div type="section" n="2.1">
+         <div type="article" n="3.1">
             
-         </div>
-         <!--page 1 (sb_06) -->
-         <div type="section" n="3.1">
-            
-         </div>
-         <!--page 1 (sb_08) -->
-         <div type="section" n="4.1">
-            
-         </div>
-         <!--page 1 (sb_09) -->
-         <div type="section" n="5.1">
-            
-         </div>
-         <!--page 1 (sb_10) -->
-         <div type="section" n="6.1">
-            
-         </div>
-         <!--page 1 (sb_11) -->
-         <div type="section" n="7.1">
-            
-         </div>
-         <!--page 1 (sb_15) -->
-         <div type="section" n="8.1">
-            
-         </div>
-         <!--page 1 (sb_17) -->
-         <div type="section" n="9.1">
-            
-         </div>
-         <!--page 1 (sb_20) -->
-         <div type="section" n="10.1">
-            
+            <p>12 Irish Independent, Wednesday, October 3, 1956
+               Motor Sport Review
+               
+               Moto-Cross Was
+               Great Success
+               
+               BY BARRY MASON
+               
+               THE outstanding success of the
+               Dublin and District Motor Cycle
+               Club's Moto-Cross last Saturday
+               indicated that there is a bright
+               future in this country for such
+               an event
+               Irish riders’ lack of practice was
+               obvious and if they are to hold
+               their own in the future there must
+               be more events for training. It was
+               very interesting to see how quickly
+               some of them "caught on” last Satur-
+               day. The outstanding Irish competi-
+               tor was Ian Williams, who has had
+               some experience recently in Eng-
+               land, where he was riding for the
+               Ariel factory.
+               The most obvious things that
+               our men have to learn are. keep-
+               ing the taps open and front wheel
+               control. It was wonderful to see
+               how the British experts could con-
+               trol their bikes at higher speeds
+               than those at which many of our
+               men were losing control of their
+               machines.
+               Front wheel lifting seems to be
+               the answer. At one particularly
+               tricky point, the course crossed a
+               lane. Here the less experienced were
+               “ jumping ” their machines at the
+               start of the crossing, landing on the
+               far side of the lane and “ jumping ”
+               a second time
+               
+               MUCH QUICKER
+               
+               THE experts took it much faster,
+               cleared the lot with one jump
+               and landed on the back wheel,
+               keeping the front wheel off the
+               ground until they had things
+               perfectly under control.
+               Alex Woods was another of
+               Irish competitors who showed up
+               well earning fourth place in the
+               350 race and fifth, after Williams,
+               in the 500 race on his fast 350
+               machine. Ernie Lyons did well to
+               drive a “wedge” amongst the four
+               Dot works men in the 250 race but
+               it appeared to me that his N.S.U.
+               did not have the speed of the Dots,
+               and he appeared to tire, possibly 
+               through having to work so hard
+               with a slower machine.
+               The surprise of the meeting was
+               the great improvement in the riding
+               of Eric Williams, brother of Ian.
+               His win in the handicap was well
+               merited.
+               Revenue Is a big difficulty for
+               clubs here as the big events are
+               road races where no admission
+               charge is possible, but I think that
+               more events of the Moto-Cross
+               variety, which are run on enclosed
+               circuits where a charge can be col-
+               lected, may at least be part of the!
+               answer.
+               
+               
+               BIG ATTENDANCE
+               
+               THIS type of sport is a novelty to
+               Irish people, but there was
+               quite a big attendance on Satur-
+               day, and as word gets around as
+               to its value its appeal will
+               increase.
+               
+               I know that the calendar is
+               already very full, but it might be
+               worth while dropping some other
+               events in favour of the Moto-Cross,
+               and now is the time to plan.
+               With the last of the racing season
+               events on Saturday, the 5OO
+               M.R.C.I. car meeting in Ulster, the
+               trials season opens in a big way
+               this month.
+               For bikes there are three champion-
+               ship trials in October, the Belfast and
+               District Club’s, Barr Trophy (6th),
+               the Dublin and District Club’s,
+               Moran Cup (13th), and the Ulster
+               President’s Cup (27th).
+               On Saturday in the Dublin area
+               there is the Dublin University Club’s,
+               Fall Trial, starting from Lamb
+               Doyles (3.0). For cars on Saturday
+               there is the Leinster Club’s, Vigzol
+               Cup Trial, a non-observed event,
+               starting from the Phoenix Monument
+               (3.0).
+               on Sunday there is the first of the
+               trials counting towards this season’s
+               Hewison Trophy competition, the
+               Limerick Club’s Circuit of Clare,
+               which this year takes the place in
+               the series of the same club’s Circuit
+               of Munster. The other Hewison event
+               this month is the Kilkenny Winter
+               Trial (28th).       
+          </p>
          </div>
          
+         <!--page 4 (sb_08) -->
+         <div type="article" n="4.1"> </div>
+         <!--page 5 (sb_09) -->
+            <div type="article" n="5.1"> </div>
+         <!--page 6 (sb_10) -->
+            <div type="article" n="6.1"> </div>
          
-        
          
-       
+         <!--page 7 (sb_11) -->
+            <div type="article" n="7.1"> 
+            <p>
+               B.S.A. Works Team For
+               D. And D. Meeting
+               
+               B.S.A.’s have just announced their
+               intention of sending over an
+               official works team for the Dublin
+               and District Motor Cycle Club’s
+               International Moto Cross meeting
+               over the new course at Red Bog
+               later in the month and this news
+               will certainly give a terrific boost
+               to the already highly interesting
+               programme.
+               The Birmingham factory will be
+               represented by the high ranking
+               English stars, Brian Stonebridge,
+               David Tye and Terry Cheshire all
+               of whom will be supplied with
+               Senior and Junior " Gold Stars.”
+               Cheshire and Tye were both seen
+               in action at the Curragh last year,
+               but Stonebridge, who is in the
+               world championship class will be
+               making his first appearance on our
+               soil.
+               Enquiries have also been received
+               from Dutch and German riders and
+               it is quite possible that a number
+               of them will make the trip to
+               Ireland immediately after the con-
+               clusion of the International Six
+               Days’ Trial on the Continent.
+               Well-known Ulster men already
+               included in the colourful line-up are
+               Alex McFarland-Woods, Brian Cross
+               and Alan Bradshaw while the cross-
+               Channel Dot team have asked for
+               special permission to compete in all
+               classes. Fortunately there is a
+               clause in the regulations which
+               makes a proviso giving visitors a
+               special concession in this respect so
+               that Bill Barugh and his team
+               mates will be able to face the
+               starter as often as they wish. 
+               And indeed, judging by some of
+               their outstanding performances in
+               the past, it is safe to say that
+               these 197 c.c. two-strokers will be
+               more than a match for many of
+               their heavyweight rivals.
+               One of the strongest Irish teams
+               should be the Ariel trio, nominated
+               by Mr. Ted Barrett, of Mountjoy
+               Motor Cycles, Ltd. This very fast
+               line-up consists of Des. Cullen and
+               the Williams’ brothers, Ian and Eric,
+               who have been riding with such dis-
+               tinction during the past few seasons.
+               The Phibsboro’ sponsor has always
+               been very closely connected with the
+               sport, and any successes gained by
+               his B.S.A. or Ariel nominees have
+               been very well received by followers
+               of all branches of the game.
+               Most of the leading Dublin expo-
+               nents have already sent in their
+               entries, but it should be noted that
+               the list will finally close on Satur-
+               day, and no late entries can possibly
+               be considered after that date. In-
+               deed. by the looks of things, it may
+               well happen that some prospective
+               competitors will have to be included
+               amongst the reserves if nominations
+               continue to pour in at the present.
+            </p></div>
+            
+         <!--page 8 (sb_15) -->
+            <div type="article" n="8.1"> </div>
+         <!--page 9 (sb_17) -->
+            <div type="article" n="9.1"> </div>
+         <!--page 10 (sb_20) -->
+            <div type="article" n="10.1"> <p>Motor cycling
+            
+            Long just
+            misses
+            hat-trick
+            
+            DAVID LONG (Dodler) had a
+            most successful day at the
+            Irish M.C.C. grasstrack races at
+            Bloomfield, Merrion road, Dublin,
+            yesterday, winning the first race, a
+            graded scratch event, and the last,
+            the allcomers’ handicap, in which he
+            passed the limit man, C. O'Connor
+            (Francis-Barnett) at half-distance
+            and went on to win by nine seconds.
+            He nearly won the 250 c.c. scratch
+            race also, but was brought off on
+            the last lap by G. F. Scarlett (Dot),
+            who was attempting to pass him.
+            Fastest riders were the Williams
+            brothers, lan beating Eric to win
+            his graded scratch race in best time
+            of the day, 2m. 38s., and Eric turn-
+            ing the tables in the 500 c.c. scratch,
+            which he won in the same time.
+            Results :—
+            Graded Scratch Race A—1, D. Long
+            (247 Dodler); 2. C. O’Connor (197 F/
+            Barnett); 3, J. D. Roche (197 Dot). Win-
+            ner’s time, 3m. 3s.
+            Graded Scratch B—1, A. Conlon (348
+            B.S.A.): 2, J M. Kavanagh (249 F/Bar-
+            nett); 3. D. McGowan (348 B.S.A.). 2.49.
+            Graded Scratch C—1. D J. Dixon (499
+            B.S.A.); 2, A. Marr (499 B.S.A.); 3. I.
+            Williams (249 F/Barnett). 2.44
+            Graded Scratch D—1, I Williams (497
+            Ariel); 2, E. Williams (497 J.A.P.); 3,
+            D. Hughes (497 J.A.P). 2 38.
+            200 c.c. Scratch—1. R. J. G. Kidd
+            (Sun); 2, H. Mooney (Triumph); 3, C.
+            O'Connor (F. Barnett), 3.0.
+            250 c.c. Scratch—1. I. Williams (F/
+            Barnett); 2, J. M. Kavanagh (F/Barnett);
+            3 D. Long (Dodler). 2.48.
+            350 c.c. Scratch—1, W E Harris
+            (B.S A.); 2. D. J. Dixon (Norton-J.A.P.);
+            3 S. Foody (B.S.A.). 2.40.
+            500 c c. Scratch—1, E. Williams
+            (J.A.P.); 2, I. Williams (Ariel); 3, D.
+            Hughes (J.A.P.). 2.38.
+            General Handicap Final—1, D. Long
+            (247 Dodler). h’cap 68s.: 2, G. D. Forde
+            (244 Excelsior), 72s.; 3. C. O’Connor
+            (197 F/Barnett), 80s.; 6 38.
+         </p></div>
+            
+            
+            <div type="article" n="10.2">
+               
+               <p>MOTOR-CYCLING... BY BR
+            
+            Big Test
+            Nenagh
+            
+            AT three o’clock this afternoon, the first 1958
+            motor-cycle grass-track event will get
+            under way at Drummin Field, just outside
+            Nenagh town.
+            This is the first time that
+            such an honour has fallen
+            to a provincial club.
+            And it is due to the fact
+            that the I.M.C.C. date
+            scheduled for yesterday was
+            abandoned because the usual
+            course at Hazelhatch was
+            not available.
+            The Ormond M.C.C., who
+            organise to-day’s event, are a
+            newly-formed club and have
+            never run any kind of
+            open event before.
+            
+            DOT TWINS
+            Some idea of the fare to
+            be expected can be had from
+            the performances in last
+            week’s Dunlop scramble.
+            Chief interest is in the
+            250 c.c. class, where the
+            newly imported Dot twins in
+            the hands of Jack Kavenagh
+            and Gerald Scarlett do battle
+            with the new A.M.C. engined
+            Francis Barnetts, ridden by
+            Ian Williams and Jim
+            Kavenagh.
+            Ian Williams is Ariel-
+            mounted in the 500 c.c.
+            class.
+            The competition comes
+            from his brother, Eric, who
+            rides either an Ariel or a
+            JAP-engined special, and
+            George Harps, also Ariel-
+            mounted.
+            Dermot Byrne rides his
+            recently acquired JAP.
+            
+            LOCAL MEN
+            Local interest is in
+            Dalcassian riders McEoin
+            (James), Kelly (James), Len-
+            non (Norton).
+            Early entries close to-
+            morrow for the Limerick
+            Motor Club’s Circuit of
+            Munster, the annual car
+            rally held over the Whit
+            week-end.
+            This year’s event takes the
+            same form as that of pre-
+            vious years—about 600 miles
+            of driving in two days.
+            There are four starting
+            points — Cork, Limerick,
+            Dublin, and Urlingford.
+            
+            BIG ENTRY
+            THERE is a big entry for
+            the Athlone Hockey
+            Club’s annual mixed 6-a-side
+            tournament at Grace Park,
+            Athlone, to-day.</p></div>
+
+            <div type="article" n="10.3"><p>Isle of Man Win
+            For Miller?
+            
+            THIS week sees the annual mecca of motor-
+            cyclists in full swing. The Isle of Man
+            TT week is just as attractive as ever and Irish-
+            men are likely to be as prominent as usual.
+            We stand a good chance
+            of seeing Sammy Miller
+            finish in front this year.
+            He will be riding a 125 c.c
+            Ducati in the ultra light-
+            weight event over Clypse
+            on Wednesday.
+            In the 250 c.c. event he
+            rides a Czechoslovakian CZ
+            and his competition will
+            include two other Ulster
+            riders who should not be too
+            far behind—Tommy Robb
+            and Davy Andrews, who
+            ride N.S.U.s entered by
+            Tommy Hill.
+            
+            FAVOURITE
+            Another Ulsterman rides
+            in both senior and junior
+            events on an A.J.S. (350)
+            and a Norton (500).
+            Judging by practice times
+            last week, it seems that John
+            (Illegible) must be a favourite
+            for the senior honours of the
+            week on a works M.V.
+            Augusta.
+            Irish fans, returning from
+            the Island immediately after
+            the I.O.M. racing, will
+            move straight to Butlin’s
+            Holiday Camp, Mosney,
+            where the Dublin and Dis-
+            trict M.C.C. hold their
+            annual championship meet-
+            ing next Saturday.
+            
+            BIG SURPRISE
+            Included in the programme
+            will be the National two-
+            mile 500 c.c. and 250 c.c.
+            championships, as well as
+            the 350 c.c. southern centre
+            one.
+            I expect Davy Dixon to
+            retain this title, but if a
+            southerner comes out on top
+            in either of the others it will
+            be a big surprise.
+            
+            SAMMY MILLER
+            Ian Williams, on the
+            Francis Barnett, might just
+            manage it in the 250 race.
+            Racing starts at 3.30 and
+            will conclude at about 
+            5.45 p.m.
+            
+         </p></div>
+
+
       </body>
-  </text>
+      <back></back>
+   </text>
 </TEI>
