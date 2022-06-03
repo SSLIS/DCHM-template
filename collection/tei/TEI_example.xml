@@ -6,13 +6,13 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ian Williams Scrapbook</title>
-            <author corresp="#JW, #EN">Jackie Williams and Elisabeth Nonstad</author>
-            <principal>Jackie Williams and Elisabeth Nonstad</principal>
+            <title>DCHM Template</title>
+            <author corresp="#WD">Wout Dillen</author>
+            <principal>Wout Dillen</principal>
          </titleStmt>
          <publicationStmt>
             <publisher>University of Borås</publisher>
-            <date>June 2022</date>
+            <date>March 2022</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
@@ -22,7 +22,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-               <p>A post-it with a simple example phrase on it</p>
+            <p>A post-it with a simple example phrase on it</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -31,9 +31,6 @@
          </handNotes>
       </profileDesc>
    </teiHeader>
-   
-   
-   
    <facsimile>
       <surface xml:id="postit01">
          <figure>
@@ -48,14 +45,14 @@
    </facsimile>
    <text>
       <body>
-            <pb facs="#postit01"/>
-            <head>
-               <hi rend="u">DCHM Template</hi>
-            </head>
-            <p>
-               A <del>silly</del> <add>small</add> example
-               <lb/>text.
-            </p>
+         <pb facs="#postit01"/>
+         <head>
+            <hi rend="u">DCHM Template</hi>
+         </head>
+         <p>
+            A <del>silly</del> <add>small</add> example
+            <lb/>text.
+         </p>
       </body>
    </text>
 </TEI>

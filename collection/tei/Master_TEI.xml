@@ -27,432 +27,442 @@
          
          <div type="article" n="1.1">
             
-            <p>CHAMPIONSHIP CHALLENGER . . . Dublin rider Ian Williams
+            <!--insert img here with caption below-->
+            <figure><p>CHAMPIONSHIP CHALLENGER . . . Dublin rider Ian Williams
                (Ariel) who rides in to-morrow’s Hurst Cup International Trial
-               at Conling, Belfast.
+               at Conling, Belfast.</p></figure>
                
-               Hurst Cup Trial Has
-               Big English Entry
+               <head>Hurst Cup Trial Has<lb/>
+               Big English Entry</head>
                
-               By BASIL BRINDLEY
+            <byline>By BASIL BRINDLEY</byline>
                
-               WITH an entry of 79 for to-morrow’s Hurst Cup Trial,
-               officials of the Knock Motor Cycle Club must be
-               feeling very happy, as 80 is the maximum figure
-               specified on the regulations.
-               The international event 
-               will be held over a number of
-               laps in the Clandeboye
-               Estate, Belfast, and total
-               distance will be somewhat
-               less than 50 miles.
-               English competitors did excep-
-               tionally well last year and,
-               judging by the increase in their
-               numbers on this occasion, they
-               intend to return with the valuable
-               perpetual trophy for another 12
-               months.
-               The Sunbeam Motor Cycle Club
-               is responsible for no less than
-               seven members of the eighteen-
-               strong cross - Channel challenge.
-               Included in this team are Johnny
-               Brittain (Royal Enfield), P. H.
-               Alves (Triumph), B. W. Martin
-               (B.S.A.) and the Wicken brothers
-               who will be Norman and Triumph-
-               mounted.
-               Scotsman J. H. Birrell has entered
-               a junior " Gold Star" while other
-               visitors of note are E. Usher (Match-
-               less), G. L. Jackson (A.J.S.), E. W.
-               Smith (Francis Barnett) and J. V.
-               Smith (B.S.A.)
-               | Leinster will be represented by
-               practically every outstanding rider in
-               the province and regulars like Dudley
-               Ryder (Matchless), Joe Dawson
-               (B.S.A.), Mick Tracey (Norton),
-               Freddie Dickson (Sun) and Kevin
-               Keegan (B.S.A.) may be relied upon
-               to acquit themselves well.
-               Strong Ulster Bid
-               Travelling up from the south also
-               with good reputations are Dave
-               Felton (Francis Barnett), Ian
-               Williams, Reg Armstrong (Gilera)
-               and James exponents Ernie Lyons,
-               Doug Ewen and Aubrey Archer.
-               With over 50 p.c. Of the entry,
-               Ulster is in a strong position and
-               if a Six-County man is to win the
-               event, it’s odds on Sammy Miller
-               from Belfast being the one to do
-               it. Riding a 197 c.c, James, this
-               road racing and trials star has
-               proved himself almost invincible
-               during the season and he must
-               have an outstanding chance to-
-               morrow.
-               Able support will come from Bill
-               Clark (Royal Enfield). Tommy Robb
-               (Francis Barnett), W. J. Hutton
-               (Greeves), Terry Hill (B.S.A.), Brian
-               McClery (Royal Enfield) and Bertie
-               Mann (Francis Barnett), all of whom
-               have been figuring well in this year’s
-               events.
-               The trial begins at 12 o’clock and
-               starting point is near the Lead Mines,
-               Conling.
-               Entries: A.J.S.—G. L. Jackson, H.
-               N. Niblock. Ariel — D. Bradley, I.
-               Williams, W. Stewart. B.S.A. — A.
-               Woods (or James), J. H. Birrell, R.
-               T. Hill, J. V. Smith, B. W. Martin,
-               G. J. Draper, J. L. Crossle, E. Gill,
-               I.  Creighton, J. C. Dawson. K.
-               Keegan, P. C. O. Stanfield.
-               Dot—A Clarke, T. J. B. Stronge, I
-               Millar.
-               Francis-Barnett—N. D. Metcalfe: B.
-               Crawford, G. E. Fisher, T. H. Robb,
-               B Mann C. Bell, B. J Andrews,
-               D. R. Felton, E. W. Smith. A Shutt.
-               D. J. Campbell, R. Jackson, N Bell.
-               Gilera—R. Armstrong.
-               Greeves—H. C. Parkinson, W. J.
-               Hutton, D. G. Mayne, R. Stewart.
-               H.J.H.—D. Andrews.
-               James—R. Stevenson, M. Brosnan,
-               H. Dunlop. S. H. Miller N. W. Green-
-               away, S. Moore, D. C. Ewen, A. H. L.
-               Archer, E. Lyons, B. McConnell (or
-               B.S.A.). J. M. Simpson. W. H. Martin,
-               J. B. Haughton.
-               Lambretta—W. Peden.
-               Matchless—E. Usher, D. F. Ryder,
-               D. R. O’Neill. H. Dickson.
-               Norman—R. W. Peacock, S. Wicken,
-               I. Boal, J. S. Quigg.
-               Norton—R J. McKee. M. G. Tracey,
-               J. S Tyrrell. E. L. Theorin. W. R.
-               Chamberlain
-               O.E.C.-N. McKeag.
-               Royal Enfield-J. Brittain, W. J. M. 
-               Clark, B. H. McClery, C. D. Metcalfe. 
-               Sun- F. C. Dickson, E. Rice.
-               Triumph-S. Spence, P. H. Alves,
-               J. Giles, J. E. Wicken.</p>
+           <p>WITH an entry of 79 for to-morrow’s Hurst Cup Trial,<lb/>
+                  officials of the Knock Motor Cycle Club must be<lb/>
+                  feeling very happy, as 80 is the maximum figure<lb/>
+               specified on the regulations.</p>
+            <cb/>
+            <div type="section"> <!-- enter type and n-->  <p>The international event<lb/>
+               will be held over a number of<lb/>
+               laps in the Clandeboye<lb/>
+               Estate, Belfast, and total<lb/>
+               distance will be somewhat<lb/>
+               less than 50 miles.</p>
+               <p>English competitors did excep-<lb/>
+                  tionally well last year and,<lb/>
+                  judging by the increase in their<lb/>
+                  numbers on this occasion, they<lb/>
+                  intend to return with the valuable<lb/>
+                  perpetual trophy for another 12<lb/>
+               months.</p>
+               <!--make bold--><p>The Sunbeam Motor Cycle Club<lb/>
+                  is responsible for no less than<lb/>
+                  seven members of the eighteen-<lb/>
+                  strong cross - Channel challenge.<lb/>
+                  Included in this team are Johnny<lb/>
+                  Brittain (Royal Enfield), P. H.<lb/>
+                  Alves (Triumph), B. W. Martin<lb/>
+                  (B.S.A.) and the Wicken brothers<lb/>
+                  who will be Norman and Triumph-<lb/>
+               mounted.</p>
+               <p>Scotsman J. H. Birrell has entered<lb/>
+                  a junior " Gold Star" while other<lb/>
+                  visitors of note are E. Usher (Match-<lb/>
+                  less), G. L. Jackson (A.J.S.), E. W.<lb/>
+                  Smith (Francis Barnett) and J. V.<lb/>
+                  Smith (B.S.A.)<lb/>
+                  | Leinster will be represented by<lb/>
+                  practically every outstanding rider in<lb/>
+                  the province and regulars like Dudley<lb/>
+                  Ryder (Matchless), Joe Dawson<lb/>
+                  (B.S.A.), Mick Tracey (Norton),<lb/>
+                  Freddie Dickson (Sun) and Kevin<lb/>
+                  Keegan (B.S.A.) may be relied upon<lb/>
+               to acquit themselves well.</p></div>
+            
+             
+            <div> <!-- enter type and n-->
+               <head>  Strong Ulster Bid</head>
+               <p>Travelling up from the south also<lb/>
+               with good reputations are Dave<lb/>
+               Felton (Francis Barnett), Ian<lb/>
+               Williams, Reg Armstrong (Gilera)<lb/>
+               <cb/>and James exponents Ernie Lyons,<lb/>
+               Doug Ewen and Aubrey Archer.</p>
+               <p><!--bold-->With over 50 p.c. Of the entry,<lb/>
+                  Ulster is in a strong position and<lb/>
+                  if a Six-County man is to win the<lb/>
+                  event, it’s odds on Sammy Miller<lb/>
+                  from Belfast being the one to do<lb/>
+                  it. Riding a 197 c.c, James, this<lb/>
+                  road racing and trials star has<lb/>
+                  proved himself almost invincible<lb/>
+                  during the season and he must<lb/>
+                  have an outstanding chance to-<lb/>
+               morrow.</p>
+               <p>Able support will come from Bill<lb/>
+                  Clark (Royal Enfield). Tommy Robb<lb/>
+                  (Francis Barnett), W. J. Hutton<lb/>
+                  (Greeves), Terry Hill (B.S.A.), Brian<lb/>
+                  McClery (Royal Enfield) and Bertie<lb/>
+                  Mann (Francis Barnett), all of whom<lb/>
+                  have been figuring well in this year’s<lb/>
+               events.</p>
+               <p>The trial begins at 12 o’clock and<lb/>
+                  starting point is near the Lead Mines,<lb/>
+               Conling.</p>
+               <p><!--format specifically for entries-->Entries: A.J.S.—G. L. Jackson, H.<lb/>
+                  N. Niblock. Ariel — D. Bradley, I.<lb/>
+                  Williams, W. Stewart. B.S.A. — A.<lb/>
+                  Woods (or James), J. H. Birrell, R.<lb/>
+                  T. Hill, J. V. Smith, B. W. Martin,<lb/>
+                  G. J. Draper, J. L. Crossle, E. Gill,<lb/>
+                  I.  Creighton, J. C. Dawson. K.<lb/>
+                  Keegan, P. C. O. Stanfield.<lb/>
+                  Dot—A Clarke, T. J. B. Stronge, I<lb/>
+                  Millar.<lb/>
+                  Francis-Barnett—N. D. Metcalfe: B.<lb/>
+                  Crawford, G. E. Fisher, T. H. Robb,<lb/>
+                  B Mann C. Bell, B. J Andrews,<lb/>
+                  D. R. Felton, E. W. Smith. A Shutt.<lb/>
+                  D. J. Campbell, R. Jackson, N Bell.<lb/>
+                  Gilera—R. Armstrong.<lb/>
+                  Greeves—H. C. Parkinson, W. J.<lb/>
+                  Hutton, D. G. Mayne, R. Stewart.<lb/>
+                  H.J.H.—D. Andrews.<lb/>
+                  James—R. Stevenson, M. Brosnan,<lb/>
+                  H. Dunlop. S. H. Miller N. W. Green-<lb/>
+                  away, S. Moore, D. C. Ewen, A. H. L.<lb/>
+                  Archer, E. Lyons, B. McConnell (or<lb/>
+                  B.S.A.). J. M. Simpson. W. H. Martin,<lb/>
+                  J. B. Haughton.<lb/>
+                  Lambretta—W. Peden.<lb/>
+                  Matchless—E. Usher, D. F. Ryder,<lb/>
+                  D. R. O’Neill. H. Dickson.<lb/>
+                  Norman—R. W. Peacock, S. Wicken,<lb/>
+                  I. Boal, J. S. Quigg.<lb/>
+                  Norton—R J. McKee. M. G. Tracey,<lb/>
+                  J. S Tyrrell. E. L. Theorin. W. R.<lb/>
+                  Chamberlain<lb/>
+                  O.E.C.-N. McKeag.<lb/>
+                  Royal Enfield-J. Brittain, W. J. M. <lb/>
+                  Clark, B. H. McClery, C. D. Metcalfe. <lb/>
+                  Sun- F. C. Dickson, E. Rice.<lb/>
+                  Triumph-S. Spence, P. H. Alves,<lb/>
+               J. Giles, J. E. Wicken.</p></div>
          </div>
          <div type="article" n="1.2">
-            <p> "B.B.. RUSSEL" TROPHY: The winner this year is Ian deserved, he was placed at every
-               meeting except the 20 1/2 points. Runner-up is Ernie Lyons who won the cup with 15
-               1/2 points; followed by D. C. Ewen, 8 points; F C. Coard, E. Callaghan and M. Tracey
+            <p> "B.B.. RUSSEL" TROPHY: The winner this year is Ian deserved, he was placed at every<lb/>
+               meeting except the 20 1/2 points. Runner-up is Ernie Lyons who won the cup with 15<lb/>
+               1/2 points; followed by D. C. Ewen, 8 points; F C. Coard, E. Callaghan and M. Tracey<lb/>
                with 6 points.</p>
          </div>
          <div type="article" n="1.3">
-            <p> Slade Scramble
-               By BASIL BRINDLEY
-               LONG handicap man, Stan Tracey,
-               scored a comfortable win from
-               the near scratch pair, Freddie Dickson
-               and Edmund Gill, in the Nicholson
-               Memorial Scramble at, the Slade
-               yesterday.
-               The event was run over fifteen laps
-               and was preceded by the
-               distance Carville Cup race,
-               honours went to C. Childs on an
-               Ariel.
-               Results—Nicholson Memorial Trophy	. .
-               (15 laps)—1, S. A. Tracey (Sun) (loss
-               obsv. 36)(lost time 16) (h’cap. 70)
-               (net 518) 2, F. C. Dickson (Sun)
-               (47) (nil) (30) (483); 3, E. P. Gill
-               (B.S.A.) (37) (13) (480).
-               Best on time—M. G. Tracey (Nor-
-               ton) (35) (10) (scr.) (455). Best on
-               observation—I. Creighton (B.S.A.) 
-               (30) (27) (30) (473). 250 c.c. class—A.
-               H L. Archer (James) (49) (32) (40)
-               (4559). 350 c.c. class - D. Ryder
-               Matchless) (39) (14) (scr.) (447). 500
-               c.c. class—I. Williamson (Ariel) (88)
-               (25) (50) (437).
-               CARVILLE CUP (8 laps) — 1, C.
-               Childs (Ariel) (58) (25) (70) (487) ; 2,
-               G. F. Scarlett (Dot) (46) (1) (10)
-               (463); D. Cullen (Norton) (88) (1)
+            <p> Slade Scramble<lb/>
+               By BASIL BRINDLEY<lb/>
+               LONG handicap man, Stan Tracey,<lb/>
+               scored a comfortable win from<lb/>
+               the near scratch pair, Freddie Dickson<lb/>
+               and Edmund Gill, in the Nicholson<lb/>
+               Memorial Scramble at, the Slade<lb/>
+               yesterday.<lb/>
+               The event was run over fifteen laps<lb/>
+               and was preceded by the<lb/>
+               distance Carville Cup race,<lb/>
+               honours went to C. Childs on an<lb/>
+               Ariel.<lb/>
+               Results—Nicholson Memorial Trophy	. .<lb/>
+               (15 laps)—1, S. A. Tracey (Sun) (loss<lb/>
+               obsv. 36)(lost time 16) (h’cap. 70)<lb/>
+               (net 518) 2, F. C. Dickson (Sun)<lb/>
+               (47) (nil) (30) (483); 3, E. P. Gill<lb/>
+               (B.S.A.) (37) (13) (480).<lb/>
+               Best on time—M. G. Tracey (Nor-<lb/>
+               ton) (35) (10) (scr.) (455). Best on<lb/>
+               observation—I. Creighton (B.S.A.) <lb/>
+               (30) (27) (30) (473). 250 c.c. class—A.<lb/>
+               H L. Archer (James) (49) (32) (40)<lb/>
+               (4559). 350 c.c. class - D. Ryder<lb/>
+               Matchless) (39) (14) (scr.) (447). 500<lb/>
+               c.c. class—I. Williamson (Ariel) (88)<lb/>
+               (25) (50) (437).<lb/>
+               CARVILLE CUP (8 laps) — 1, C.<lb/>
+               Childs (Ariel) (58) (25) (70) (487) ; 2,<lb/>
+               G. F. Scarlett (Dot) (46) (1) (10)<lb/>
+               (463); D. Cullen (Norton) (88) (1)<lb/>
                (501) (461).
             </p>
          </div>
 
-
+<pb/>
          <!--page 2 (sb_04) -->
          
-         <div <!--add in type - handwritten--> n="2.1">
-            <p>SMILES FROM DAVID TYE AND 
-               MYSELF AT BRAY SCRAMBLE</p>
+         <div  n="2.1"> <!--add in type - handwritten (handnote) - add to    <profileDesc> see TEI example-->
+            <l>SMILES FROM DAVID TYE AND <lb/>
+               MYSELF AT BRAY SCRAMBLE</l></div>
 
          <div type="article" n="2.2">
-            <p>Ian Williams 
-               Beats Brother
+            <p>Ian Williams <lb/>
+               Beats Brother<lb/>
                
-               IAN WILLIAMS returned to grass
-               track racing in sparkling form
-               and at the Dublin University grass
-               track races at Powerscourt yester-
-               day his victories included an
-               exciting finish in the handicap final
-               where he beat his brother Eric by
-               half a wheel.	
-               Graded Scratch Race A — 1. K.
-               Cotter (248 Excelsior); 2, M. D.
-               Thornton (197 Dot);	3, J. D.
-               Poynton (197 Dot). 5 mips. 42 secs.
-               Graded Scratch Race B — 1, G. F.
-               Scarlett (197 Dot); 2, F. C. Dickson
-               (197 Dot); 3, J. Barkley (197 Dot).
-               5 mins 28 secs. Graded Scratch
-               Race C—1, R. Williams (197 Aerial);
-               2 E. Williams (497 Aerial); 3, D. J.
-               Dixon (344 Norton Jap). 5 mins.
-               5 secs.
-               Open Handicap- Heat 1 - 1 W.
-               Hogan (197 Dot); 2, I. Williams
-               497 Aerial); 3 L, Armstrong (500
-               Jap). 5 mins. 47 secs. Heat 2—1.
-               F. C. Dixon (197 Dot); 2. S. Foody
-               (348 B.S.A.); 3. J- D. Roche (348
-               B.S.A.). 5 mins. 22 secs. Heat 0—
-               I E Williams (497 Aerial); 2, G. B.
-               S-arlett (197 Dot): 3. K. Cotter (244
-               Excelsior). 5 mins. 7 secs. Handi-
-               can Final — 1. I Williams (497
-               Aerial); 2 E. Williams (497 Aerial);
-               3, G. F. Scarlett (197 Dot). 5 mins.
-               dead.
-               250 c.c. Scratch Race—Heat 1—
-               Pearson (248 N.S.U.). Heat
-               1s. D. Pearson (248 N.S.U.). Heat
-               2- G. F. Scarlett (197 Dot.). Final
-               __1, G. F. Scarlett (197 Dot.); 2. F
-               C. ’Dickson (197 Dot.): 3. D. Pear-
-               son (248 N.S.U.). 5 mins. 17s.
-               350 c.c. scratch race—1, D. Dixon
-               (344 Norton Jap.); 2, S. Foody
-               (348 B.S.A.); 3, W. E. Harris (348
-               B.S.A.). 5 mins. 11s. 500 c.c. scratch
-               race—1. I. Williams (497 Aerial); 2,
-               E. Williams (497 Ariel); 3, J. Porter
-               (500 Jap.). 4 mins 58 secs.
+               IAN WILLIAMS returned to grass<lb/>
+               track racing in sparkling form<lb/>
+               and at the Dublin University grass<lb/>
+               track races at Powerscourt yester-<lb/>
+               day his victories included an<lb/>
+               exciting finish in the handicap final<lb/>
+               where he beat his brother Eric by<lb/>
+               half a wheel.	<lb/>
+               Graded Scratch Race A — 1. K.<lb/>
+               Cotter (248 Excelsior); 2, M. D.<lb/>
+               Thornton (197 Dot);	3, J. D.<lb/>
+               Poynton (197 Dot). 5 mips. 42 secs.<lb/>
+               Graded Scratch Race B — 1, G. F.<lb/>
+               Scarlett (197 Dot); 2, F. C. Dickson<lb/>
+               (197 Dot); 3, J. Barkley (197 Dot).<lb/>
+               5 mins 28 secs. Graded Scratch<lb/>
+               Race C—1, R. Williams (197 Aerial);<lb/>
+               2 E. Williams (497 Aerial); 3, D. J.<lb/>
+               Dixon (344 Norton Jap). 5 mins.<lb/>
+               5 secs.<lb/>
+               Open Handicap- Heat 1 - 1 W.<lb/>
+               Hogan (197 Dot); 2, I. Williams<lb/>
+               497 Aerial); 3 L, Armstrong (500<lb/>
+               Jap). 5 mins. 47 secs. Heat 2—1.<lb/>
+               F. C. Dixon (197 Dot); 2. S. Foody<lb/>
+               (348 B.S.A.); 3. J- D. Roche (348<lb/>
+               B.S.A.). 5 mins. 22 secs. Heat 0—<lb/>
+               I E Williams (497 Aerial); 2, G. B.<lb/>
+               S-arlett (197 Dot): 3. K. Cotter (244<lb/>
+               Excelsior). 5 mins. 7 secs. Handi-<lb/>
+               can Final — 1. I Williams (497<lb/>
+               Aerial); 2 E. Williams (497 Aerial);<lb/>
+               3, G. F. Scarlett (197 Dot). 5 mins.<lb/>
+               dead.<lb/>
+               250 c.c. Scratch Race—Heat 1—<lb/>
+               Pearson (248 N.S.U.). Heat<lb/>
+               1s. D. Pearson (248 N.S.U.). Heat<lb/>
+               2- G. F. Scarlett (197 Dot.). Final<lb/>
+               __1, G. F. Scarlett (197 Dot.); 2. F<lb/>
+               C. ’Dickson (197 Dot.): 3. D. Pear-<lb/>
+               son (248 N.S.U.). 5 mins. 17s.<lb/>
+               350 c.c. scratch race—1, D. Dixon<lb/>
+               (344 Norton Jap.); 2, S. Foody<lb/>
+               (348 B.S.A.); 3, W. E. Harris (348<lb/>
+               B.S.A.). 5 mins. 11s. 500 c.c. scratch<lb/>
+               race—1. I. Williams (497 Aerial); 2,<lb/>
+               E. Williams (497 Ariel); 3, J. Porter<lb/>
+               (500 Jap.). 4 mins 58 secs.<lb/>
                
-               Results of Autocross
+               Results of Autocross<lb/>
                
-               THE M.G. Car Club held an
-               autocross At Lynch Dark. Sag-
-               gart, Co. Dublin yesterday. The
-               course was 1/2 mile long and each
-               race was over 4 laps. Results: -
-               Saloon Class — Scratch — J. C.
-               Millarad (Fiat 600). 4 mins. 17 secs.
-               Handicap—Miss E. Penston (V.W.),
-               4 mins. 22 secs.	,
-               Open Class—Scratch—M. Hayes
-               (Triumph TR2). 4 mins, 46 secs.
-               Handicap—M. Kennedy (Triumph
-               TR2). 4 mins. 45 secs.
-               Specials—Scratch—B. K. Hood
-               (Ford Special), 4 mins. 9 secs.
-               Handicap—S. V. Baker (Ford
-               Special). 4 mins. 17 secs; R. Red-
-               mond (Ford Special), 4 mms. 18
+               THE M.G. Car Club held an<lb/>
+               autocross At Lynch Dark. Sag-<lb/>
+               gart, Co. Dublin yesterday. The<lb/>
+               course was 1/2 mile long and each<lb/>
+               race was over 4 laps. Results: -<lb/>
+               Saloon Class — Scratch — J. C.<lb/>
+               Millarad (Fiat 600). 4 mins. 17 secs.<lb/>
+               Handicap—Miss E. Penston (V.W.),<lb/>
+               4 mins. 22 secs.	,<lb/>
+               Open Class—Scratch—M. Hayes<lb/>
+               (Triumph TR2). 4 mins, 46 secs.<lb/>
+               Handicap—M. Kennedy (Triumph<lb/>
+               TR2). 4 mins. 45 secs.<lb/>
+               Specials—Scratch—B. K. Hood<lb/>
+               (Ford Special), 4 mins. 9 secs.<lb/>
+               Handicap—S. V. Baker (Ford<lb/>
+               Special). 4 mins. 17 secs; R. Red-<lb/>
+               mond (Ford Special), 4 mms. 18<lb/>
                secs.
             </p>
          </div>
          
+          <pb/>   
          
          <!--page 3 (sb_06) -->
          
          <div type="article" n="3.1">
             
-            <p>12 Irish Independent, Wednesday, October 3, 1956
-               Motor Sport Review
+            <p>12 Irish Independent, Wednesday, October 3, 1956<lb/>
+               Motor Sport Review<lb/>
                
-               Moto-Cross Was
-               Great Success
+               Moto-Cross Was<lb/>
+               Great Success<lb/>
                
-               BY BARRY MASON
+               BY BARRY MASON<lb/>
                
-               THE outstanding success of the
-               Dublin and District Motor Cycle
-               Club's Moto-Cross last Saturday
-               indicated that there is a bright
-               future in this country for such
-               an event
-               Irish riders’ lack of practice was
-               obvious and if they are to hold
-               their own in the future there must
-               be more events for training. It was
-               very interesting to see how quickly
-               some of them "caught on” last Satur-
-               day. The outstanding Irish competi-
-               tor was Ian Williams, who has had
-               some experience recently in Eng-
-               land, where he was riding for the
-               Ariel factory.
-               The most obvious things that
-               our men have to learn are. keep-
-               ing the taps open and front wheel
-               control. It was wonderful to see
-               how the British experts could con-
-               trol their bikes at higher speeds
-               than those at which many of our
-               men were losing control of their
-               machines.
-               Front wheel lifting seems to be
-               the answer. At one particularly
-               tricky point, the course crossed a
-               lane. Here the less experienced were
-               “ jumping ” their machines at the
-               start of the crossing, landing on the
-               far side of the lane and “ jumping ”
-               a second time
+               THE outstanding success of the<lb/>
+               Dublin and District Motor Cycle<lb/>
+               Club's Moto-Cross last Saturday<lb/>
+               indicated that there is a bright<lb/>
+               future in this country for such<lb/>
+               an event<lb/>
+               Irish riders’ lack of practice was<lb/>
+               obvious and if they are to hold<lb/>
+               their own in the future there must<lb/>
+               be more events for training. It was<lb/>
+               very interesting to see how quickly<lb/>
+               some of them "caught on” last Satur-<lb/>
+               day. The outstanding Irish competi-<lb/>
+               tor was Ian Williams, who has had<lb/>
+               some experience recently in Eng-<lb/>
+               land, where he was riding for the<lb/>
+               Ariel factory.<lb/>
+               The most obvious things that<lb/>
+               our men have to learn are. keep-<lb/>
+               ing the taps open and front wheel<lb/>
+               control. It was wonderful to see<lb/>
+               how the British experts could con-<lb/>
+               trol their bikes at higher speeds<lb/>
+               than those at which many of our<lb/>
+               men were losing control of their<lb/>
+               machines.<lb/>
+               Front wheel lifting seems to be<lb/>
+               the answer. At one particularly<lb/>
+               tricky point, the course crossed a<lb/>
+               lane. Here the less experienced were<lb/>
+               “ jumping ” their machines at the<lb/>
+               start of the crossing, landing on the<lb/>
+               far side of the lane and “ jumping ”<lb/>
+               a second time<lb/>
                
                MUCH QUICKER
-               
-               THE experts took it much faster,
-               cleared the lot with one jump
-               and landed on the back wheel,
-               keeping the front wheel off the
-               ground until they had things
-               perfectly under control.
-               Alex Woods was another of
-               Irish competitors who showed up
-               well earning fourth place in the
-               350 race and fifth, after Williams,
-               in the 500 race on his fast 350
-               machine. Ernie Lyons did well to
-               drive a “wedge” amongst the four
-               Dot works men in the 250 race but
-               it appeared to me that his N.S.U.
-               did not have the speed of the Dots,
-               and he appeared to tire, possibly 
-               through having to work so hard
-               with a slower machine.
-               The surprise of the meeting was
-               the great improvement in the riding
-               of Eric Williams, brother of Ian.
-               His win in the handicap was well
-               merited.
-               Revenue Is a big difficulty for
-               clubs here as the big events are
-               road races where no admission
-               charge is possible, but I think that
-               more events of the Moto-Cross
-               variety, which are run on enclosed
-               circuits where a charge can be col-
-               lected, may at least be part of the!
-               answer.
+               <lb/>
+               THE experts took it much faster,<lb/>
+               cleared the lot with one jump<lb/>
+               and landed on the back wheel,<lb/>
+               keeping the front wheel off the<lb/>
+               ground until they had things<lb/>
+               perfectly under control.<lb/>
+               Alex Woods was another of<lb/>
+               Irish competitors who showed up<lb/>
+               well earning fourth place in the<lb/>
+               350 race and fifth, after Williams,<lb/>
+               in the 500 race on his fast 350<lb/>
+               machine. Ernie Lyons did well to<lb/>
+               drive a “wedge” amongst the four<lb/>
+               Dot works men in the 250 race but<lb/>
+               it appeared to me that his N.S.U.<lb/>
+               did not have the speed of the Dots,<lb/>
+               and he appeared to tire, possibly <lb/>
+               through having to work so hard<lb/>
+               with a slower machine.<lb/>
+               The surprise of the meeting was<lb/>
+               the great improvement in the riding<lb/>
+               of Eric Williams, brother of Ian.<lb/>
+               His win in the handicap was well<lb/>
+               merited.<lb/>
+               Revenue Is a big difficulty for<lb/>
+               clubs here as the big events are<lb/>
+               road races where no admission<lb/>
+               charge is possible, but I think that<lb/>
+               more events of the Moto-Cross<lb/>
+               variety, which are run on enclosed<lb/>
+               circuits where a charge can be col-<lb/>
+               lected, may at least be part of the!<lb/>
+               answer.<lb/>
                
                
                BIG ATTENDANCE
+               <lb/>
+               THIS type of sport is a novelty to<lb/>
+               Irish people, but there was<lb/>
+               quite a big attendance on Satur-<lb/>
+               day, and as word gets around as<lb/>
+               to its value its appeal will<lb/>
+               increase.<lb/>
                
-               THIS type of sport is a novelty to
-               Irish people, but there was
-               quite a big attendance on Satur-
-               day, and as word gets around as
-               to its value its appeal will
-               increase.
-               
-               I know that the calendar is
-               already very full, but it might be
-               worth while dropping some other
-               events in favour of the Moto-Cross,
-               and now is the time to plan.
-               With the last of the racing season
-               events on Saturday, the 5OO
-               M.R.C.I. car meeting in Ulster, the
-               trials season opens in a big way
-               this month.
-               For bikes there are three champion-
-               ship trials in October, the Belfast and
-               District Club’s, Barr Trophy (6th),
-               the Dublin and District Club’s,
-               Moran Cup (13th), and the Ulster
-               President’s Cup (27th).
-               On Saturday in the Dublin area
-               there is the Dublin University Club’s,
-               Fall Trial, starting from Lamb
-               Doyles (3.0). For cars on Saturday
-               there is the Leinster Club’s, Vigzol
-               Cup Trial, a non-observed event,
-               starting from the Phoenix Monument
-               (3.0).
-               on Sunday there is the first of the
-               trials counting towards this season’s
-               Hewison Trophy competition, the
-               Limerick Club’s Circuit of Clare,
-               which this year takes the place in
-               the series of the same club’s Circuit
-               of Munster. The other Hewison event
-               this month is the Kilkenny Winter
-               Trial (28th).       
+               I know that the calendar is<lb/>
+               already very full, but it might be<lb/>
+               worth while dropping some other<lb/>
+               events in favour of the Moto-Cross,<lb/>
+               and now is the time to plan.<lb/>
+               With the last of the racing season<lb/>
+               events on Saturday, the 5OO<lb/>
+               M.R.C.I. car meeting in Ulster, the<lb/>
+               trials season opens in a big way<lb/>
+               this month.<lb/>
+               For bikes there are three champion-<lb/>
+               ship trials in October, the Belfast and<lb/>
+               District Club’s, Barr Trophy (6th),<lb/>
+               the Dublin and District Club’s,<lb/>
+               Moran Cup (13th), and the Ulster<lb/>
+               President’s Cup (27th).<lb/>
+               On Saturday in the Dublin area<lb/>
+               there is the Dublin University Club’s,<lb/>
+               Fall Trial, starting from Lamb<lb/>
+               Doyles (3.0). For cars on Saturday<lb/>
+               there is the Leinster Club’s, Vigzol<lb/>
+               Cup Trial, a non-observed event,<lb/>
+               starting from the Phoenix Monument<lb/>
+               (3.0).<lb/>
+               on Sunday there is the first of the<lb/>
+               trials counting towards this season’s<lb/>
+               Hewison Trophy competition, the<lb/>
+               Limerick Club’s Circuit of Clare,<lb/>
+               which this year takes the place in<lb/>
+               the series of the same club’s Circuit<lb/>
+               of Munster. The other Hewison event<lb/>
+               this month is the Kilkenny Winter<lb/>
+               Trial (28th).       <lb/>
           </p>
          </div>
          
+        <pb/>
+         
          <!--page 4 (sb_08) -->
          <div type="article" n="4.1"> </div>
+         <pb></pb>
          <!--page 5 (sb_09) -->
             <div type="article" n="5.1"> </div>
+         <pb/>
          <!--page 6 (sb_10) -->
             <div type="article" n="6.1"> </div>
          
-         
+         <pb/>
          <!--page 7 (sb_11) -->
             <div type="article" n="7.1"> 
             <p>
-               B.S.A. Works Team For
-               D. And D. Meeting
+               B.S.A. Works Team For<lb/>
+               D. And D. Meeting<lb/>
                
-               B.S.A.’s have just announced their
-               intention of sending over an
-               official works team for the Dublin
-               and District Motor Cycle Club’s
-               International Moto Cross meeting
-               over the new course at Red Bog
-               later in the month and this news
-               will certainly give a terrific boost
-               to the already highly interesting
-               programme.
-               The Birmingham factory will be
-               represented by the high ranking
-               English stars, Brian Stonebridge,
-               David Tye and Terry Cheshire all
-               of whom will be supplied with
-               Senior and Junior " Gold Stars.”
-               Cheshire and Tye were both seen
-               in action at the Curragh last year,
-               but Stonebridge, who is in the
-               world championship class will be
-               making his first appearance on our
-               soil.
-               Enquiries have also been received
-               from Dutch and German riders and
-               it is quite possible that a number
-               of them will make the trip to
-               Ireland immediately after the con-
-               clusion of the International Six
-               Days’ Trial on the Continent.
-               Well-known Ulster men already
-               included in the colourful line-up are
-               Alex McFarland-Woods, Brian Cross
-               and Alan Bradshaw while the cross-
-               Channel Dot team have asked for
-               special permission to compete in all
-               classes. Fortunately there is a
+               B.S.A.’s have just announced their<lb/>
+               intention of sending over an<lb/>
+               official works team for the Dublin<lb/>
+               and District Motor Cycle Club’s<lb/>
+               International Moto Cross meeting<lb/>
+               over the new course at Red Bog<lb/>
+               later in the month and this news<lb/>
+               will certainly give a terrific boost<lb/>
+               to the already highly interesting<lb/>
+               programme.<lb/>
+               The Birmingham factory will be<lb/>
+               represented by the high ranking<lb/>
+               English stars, Brian Stonebridge,<lb/>
+               David Tye and Terry Cheshire all<lb/>
+               of whom will be supplied with<lb/>
+               Senior and Junior " Gold Stars.”<lb/>
+               Cheshire and Tye were both seen<lb/>
+               in action at the Curragh last year,<lb/>
+               but Stonebridge, who is in the<lb/>
+               world championship class will be<lb/>
+               making his first appearance on our<lb/>
+               soil.<lb/>
+               Enquiries have also been received<lb/>
+               from Dutch and German riders and<lb/>
+               it is quite possible that a number<lb/>
+               of them will make the trip to<lb/>
+               Ireland immediately after the con-<lb/>
+               clusion of the International Six<lb/>
+               Days’ Trial on the Continent.<lb/>
+               Well-known Ulster men already<lb/>
+               included in the colourful line-up are<lb/>
+               Alex McFarland-Woods, Brian Cross<lb/>
+               and Alan Bradshaw while the cross-<lb/>
+               Channel Dot team have asked for<lb/>
+               special permission to compete in all<lb/>
+               classes. Fortunately there is a<lb/>
                clause in the regulations which
                makes a proviso giving visitors a
                special concession in this respect so
@@ -491,11 +501,13 @@
                amongst the reserves if nominations
                continue to pour in at the present.
             </p></div>
-            
+         <pb/>
          <!--page 8 (sb_15) -->
             <div type="article" n="8.1"> </div>
+        <pb/>
          <!--page 9 (sb_17) -->
             <div type="article" n="9.1"> </div>
+         <pb/>
          <!--page 10 (sb_20) -->
             <div type="article" n="10.1"> <p>Motor cycling
             
@@ -702,8 +714,7 @@
             
          </p></div>
 
-
-      </body>
+</body>
       <back></back>
    </text>
 </TEI>
