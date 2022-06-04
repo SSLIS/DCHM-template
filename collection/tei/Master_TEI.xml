@@ -280,44 +280,80 @@
          <pb n="2"/>
 
          <!--page 3 (sb_06) -->
+            
+            <figure>
+               <figDesc>A black and white photograph of a man (possibly Ian Williams) rides a motorcycle (marked number 5), which has it's front wheel lifted off the ground, over a rocky path. The motorcycle </figDesc>
+               <graphic xml:id="" url=""/>
+               <graphic xml:id="" url=""/>
+            </figure>
 
          <div type="article" n="3.1">
 
-            <p>12 Irish Independent, Wednesday, October 3, 1956<lb/> Motor Sport Review<lb/>
-               Moto-Cross Was<lb/> Great Success<lb/> BY BARRY MASON<lb/> THE outstanding success of
+           <head rend="masthead"><num type="page">12</num> Irish Independent, Wednesday, <date when="1956-10-03">October 3, 1956</date></head>
+              
+               <head rend="section heading">Motor Sport Review</head>
+               
+              <head rend="article heading"> Moto-Cross Was<lb/> Great Success</head>
+               
+              <byline> BY <persName>BARRY MASON</persName></byline>
+            <cb/>
+            <p><hi rend="case (allcaps)">THE</hi> outstanding success of
                the<lb/> Dublin and District Motor Cycle<lb/> Club's Moto-Cross last Saturday<lb/>
                indicated that there is a bright<lb/> future in this country for such<lb/> an
-               event<lb/> Irish riders’ lack of practice was<lb/> obvious and if they are to
+               event</p>
+            
+            <p>Irish riders’ lack of practice was<lb/> obvious and if they are to
                hold<lb/> their own in the future there must<lb/> be more events for training. It
                was<lb/> very interesting to see how quickly<lb/> some of them "caught on” last
                Satur-<lb/> day. The outstanding Irish competi-<lb/> tor was Ian Williams, who has
                had<lb/> some experience recently in Eng-<lb/> land, where he was riding for the<lb/>
-               Ariel factory.<lb/> The most obvious things that<lb/> our men have to learn are.
+               Ariel factory.</p>
+            
+            
+           <p rend="bold"><quote>The most obvious things that<lb/> our men have to learn are.
                keep-<lb/> ing the taps open and front wheel<lb/> control. It was wonderful to
                see<lb/> how the British experts could con-<lb/> trol their bikes at higher
                speeds<lb/> than those at which many of our<lb/> men were losing control of
-               their<lb/> machines.<lb/> Front wheel lifting seems to be<lb/> the answer. At one
+               their<lb/> machines.</quote></p>
+            
+            <p>Front wheel lifting seems to be<lb/> the answer. At one
                particularly<lb/> tricky point, the course crossed a<lb/> lane. Here the less
                experienced were<lb/> “ jumping ” their machines at the<lb/> start of the crossing,
-               landing on the<lb/> far side of the lane and “ jumping ”<lb/> a second time<lb/> MUCH
-               QUICKER <lb/> THE experts took it much faster,<lb/> cleared the lot with one
+               landing on the<lb/> far side of the lane and “ jumping ”<lb/> a second time</p>
+            
+            <div type="section">
+               
+               <head rend="ul">MUCH QUICKER</head> 
+               
+              <p> <hi rend="case (allcaps)">THE</hi> experts took it much faster,<lb/> cleared the lot with one
                jump<lb/> and landed on the back wheel,<lb/> keeping the front wheel off the<lb/>
-               ground until they had things<lb/> perfectly under control.<lb/> Alex Woods was
+               ground until they had things<lb/> perfectly under control.</p>
+               
+               <p>Alex Woods was
                another of<lb/> Irish competitors who showed up<lb/> well earning fourth place in
                the<lb/> 350 race and fifth, after Williams,<lb/> in the 500 race on his fast
                350<lb/> machine. Ernie Lyons did well to<lb/> drive a “wedge” amongst the four<lb/>
                Dot works men in the 250 race but<lb/> it appeared to me that his N.S.U.<lb/> did not
-               have the speed of the Dots,<lb/> and he appeared to tire, possibly <lb/> through
-               having to work so hard<lb/> with a slower machine.<lb/> The surprise of the meeting
+               have the speed of the Dots,<lb/> and he appeared to tire, possibl<supplied>y</supplied><cb/> through
+               having to work so hard<lb/> with a slower machine.</p>
+               
+               <p> The surprise of the meeting
                was<lb/> the great improvement in the riding<lb/> of Eric Williams, brother of
-               Ian.<lb/> His win in the handicap was well<lb/> merited.<lb/> Revenue Is a big
-               difficulty for<lb/> clubs here as the big events are<lb/> road races where no
+               Ian.<lb/> His win in the handicap was well<lb/> merited.</p> 
+             <p>  Revenue Is a big difficulty for<lb/> clubs here as the big events are<lb/> road races where no
                admission<lb/> charge is possible, but I think that<lb/> more events of the
                Moto-Cross<lb/> variety, which are run on enclosed<lb/> circuits where a charge can
-               be col-<lb/> lected, may at least be part of the!<lb/> answer.<lb/> BIG ATTENDANCE
-               <lb/> THIS type of sport is a novelty to<lb/> Irish people, but there was<lb/> quite
+               be col-<lb/> lected, may at least be part of the!<lb/> answer.</p></div>
+            
+            <div type="section">
+               
+               <head rend="ul">BIG ATTENDANCE</head>
+               
+              <p><hi rend="case (allcaps)">THIS</hi> type of sport is a novelty to<lb/> Irish people, but there was<lb/> quite
                a big attendance on Satur-<lb/> day, and as word gets around as<lb/> to its value its
-               appeal will<lb/> increase.<lb/> I know that the calendar is<lb/> already very full,
+               appeal will<lb/> increase.</p>
+               
+               I know that the calendar is<lb/> already very full,
                but it might be<lb/> worth while dropping some other<lb/> events in favour of the
                Moto-Cross,<lb/> and now is the time to plan.<lb/> With the last of the racing
                season<lb/> events on Saturday, the 5OO<lb/> M.R.C.I. car meeting in Ulster, the<lb/>
@@ -332,8 +368,8 @@
                Hewison Trophy competition, the<lb/> Limerick Club’s Circuit of Clare,<lb/> which
                this year takes the place in<lb/> the series of the same club’s Circuit<lb/> of
                Munster. The other Hewison event<lb/> this month is the Kilkenny Winter<lb/> Trial
-               (28th). <lb/>
-            </p>
+               (28th). </div>
+            
          </div>
 
          <pb n="3"/>
