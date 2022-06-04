@@ -289,7 +289,7 @@
 
          <div type="article" n="3.1">
 
-           <head rend="masthead"><num type="page">12</num> Irish Independent, Wednesday, <date when="1956-10-03">October 3, 1956</date></head>
+           <head rend="masthead"><num type="page">12</num> <!--add detail here-->Irish Independent, Wednesday, <date when="1956-10-03">October 3, 1956</date></head>
               
                <head rend="section heading">Motor Sport Review</head>
                
@@ -298,19 +298,19 @@
               <byline> BY <persName>BARRY MASON</persName></byline>
             <cb/>
             <p><hi rend="case (allcaps)">THE</hi> outstanding success of
-               the<lb/> Dublin and District Motor Cycle<lb/> Club's Moto-Cross last Saturday<lb/>
+               the<lb/> <name type="org">Dublin and District Motor Cycle<lb/> Club's</name> Moto-Cross last Saturday<lb/>
                indicated that there is a bright<lb/> future in this country for such<lb/> an
                event</p>
             
             <p>Irish riders’ lack of practice was<lb/> obvious and if they are to
                hold<lb/> their own in the future there must<lb/> be more events for training. It
                was<lb/> very interesting to see how quickly<lb/> some of them "caught on” last
-               Satur-<lb/> day. The outstanding Irish competi-<lb/> tor was Ian Williams, who has
-               had<lb/> some experience recently in Eng-<lb/> land, where he was riding for the<lb/>
+               Satur-<lb/> day. The outstanding Irish competi-<lb/> tor was <persName ref="#IW">Ian Williams</persName>, who has
+               had<lb/> some experience recently in <placeName>Eng-<lb/> land</placeName>, where he was riding for the<lb/>
                Ariel factory.</p>
             
             
-           <p rend="bold"><quote>The most obvious things that<lb/> our men have to learn are.
+           <p rend="bold" ><quote xml:id="#IW">The most obvious things that<lb/> our men have to learn are.
                keep-<lb/> ing the taps open and front wheel<lb/> control. It was wonderful to
                see<lb/> how the British experts could con-<lb/> trol their bikes at higher
                speeds<lb/> than those at which many of our<lb/> men were losing control of
@@ -329,46 +329,53 @@
                jump<lb/> and landed on the back wheel,<lb/> keeping the front wheel off the<lb/>
                ground until they had things<lb/> perfectly under control.</p>
                
-               <p>Alex Woods was
+               <p><persName>Alex Woods</persName> was
                another of<lb/> Irish competitors who showed up<lb/> well earning fourth place in
-               the<lb/> 350 race and fifth, after Williams,<lb/> in the 500 race on his fast
-               350<lb/> machine. Ernie Lyons did well to<lb/> drive a “wedge” amongst the four<lb/>
-               Dot works men in the 250 race but<lb/> it appeared to me that his N.S.U.<lb/> did not
-               have the speed of the Dots,<lb/> and he appeared to tire, possibl<supplied>y</supplied><cb/> through
+               the<lb/> 350 race and fifth, after <persName ref="#IW">Williams</persName>,<lb/> in the 500 race on his fast
+               350<lb/> machine. <persName>Ernie Lyons</persName> did well to<lb/> drive a “wedge” amongst the four<lb/>
+               <objectName type="motorcycle">Dot</objectName> works men in the 250 race but<lb/> it appeared to me that his <objectName type="motorcycle">N.S.U.</objectName><lb/> did not
+               have the speed of the <objectName type="motorcycle">Dots</objectName>,<lb/> and he appeared to tire, possibl<supplied>y</supplied><cb/> through
                having to work so hard<lb/> with a slower machine.</p>
                
                <p> The surprise of the meeting
-               was<lb/> the great improvement in the riding<lb/> of Eric Williams, brother of
-               Ian.<lb/> His win in the handicap was well<lb/> merited.</p> 
-             <p>  Revenue Is a big difficulty for<lb/> clubs here as the big events are<lb/> road races where no
+               was<lb/> the great improvement in the riding<lb/> of <persName>Eric Williams</persName>, brother of
+               <persName ref="#IW">Ian</persName>.<lb/> His win in the handicap was well<lb/> merited.</p> 
+             <p>  Revenue is a big difficulty for<lb/> clubs here as the big events are<lb/> road races where no
                admission<lb/> charge is possible, but I think that<lb/> more events of the
                Moto-Cross<lb/> variety, which are run on enclosed<lb/> circuits where a charge can
-               be col-<lb/> lected, may at least be part of the!<lb/> answer.</p></div>
+               be col-<lb/> lected, may at least be part of the<lb/> answer.</p></div>
             
             <div type="section">
                
                <head rend="ul">BIG ATTENDANCE</head>
                
-              <p><hi rend="case (allcaps)">THIS</hi> type of sport is a novelty to<lb/> Irish people, but there was<lb/> quite
-               a big attendance on Satur-<lb/> day, and as word gets around as<lb/> to its value its
-               appeal will<lb/> increase.</p>
+              <p><hi rend="italics"><hi rend="case (allcaps)">THIS</hi> type of sport is a novelty to<lb/> Irish people, but there was<lb/> quite
+               a big attendance on Satu<supplied>r-</supplied><lb/> day, and as word gets around as<lb/> to its value its
+               appeal will<lb/> increase.</hi></p>
                
-               I know that the calendar is<lb/> already very full,
+               <p>I know that the calendar is<lb/> already very full,
                but it might be<lb/> worth while dropping some other<lb/> events in favour of the
-               Moto-Cross,<lb/> and now is the time to plan.<lb/> With the last of the racing
-               season<lb/> events on Saturday, the 5OO<lb/> M.R.C.I. car meeting in Ulster, the<lb/>
-               trials season opens in a big way<lb/> this month.<lb/> For bikes there are three
-               champion-<lb/> ship trials in October, the Belfast and<lb/> District Club’s, Barr
-               Trophy (6th),<lb/> the Dublin and District Club’s,<lb/> Moran Cup (13th), and the
-               Ulster<lb/> President’s Cup (27th).<lb/> On Saturday in the Dublin area<lb/> there is
-               the Dublin University Club’s,<lb/> Fall Trial, starting from Lamb<lb/> Doyles (3.0).
-               For cars on Saturday<lb/> there is the Leinster Club’s, Vigzol<lb/> Cup Trial, a
-               non-observed event,<lb/> starting from the Phoenix Monument<lb/> (3.0).<lb/> on
-               Sunday there is the first of the<lb/> trials counting towards this season’s<lb/>
-               Hewison Trophy competition, the<lb/> Limerick Club’s Circuit of Clare,<lb/> which
-               this year takes the place in<lb/> the series of the same club’s Circuit<lb/> of
-               Munster. The other Hewison event<lb/> this month is the Kilkenny Winter<lb/> Trial
-               (28th). </div>
+               Moto-Cross,<lb/> and now is the time to plan.</p>
+               
+               <p><hi rend="bold">With the last of the racing
+               season<lb/> events on Saturday, the <name type="event">5OO<lb/> <abbr type="unknown">M.R.C.I.</abbr> car meeting</name> in <placeName>Ulster</placeName>, the<lb/>
+               trials season opens in a big way<lb/> this month.</hi></p>
+               
+              <p>For bikes there are three
+               champion-<lb/> ship trials in October, the <placeName>Belfast</placeName> and<lb/> <name type="org">District Club’s</name>, <name type="race">Barr
+               Trophy (6th)</name>,<lb/> the <name type="org">Dublin and District Club’s</name>,<lb/> <name type="race">Moran Cup (13th)</name>, and the
+               <placeName>Ulster</placeName><lb/> <name type="race">President’s Cup (27th)</name>.</p>
+               
+               <p>On Saturday in the <placeName>Dublin</placeName> area<lb/> there is
+               the <name type="org">Dublin University Club’s</name>,<lb/> <name type="race">Fall Trial</name>, starting from <name type="bar-resturant">Lamb<lb/> Doyles </name>(3.0).
+               For cars on Saturday<lb/> there is the <name type="org">Leinster Club’s</name>, <name type="race">Vigzol<lb/> Cup Trial</name>, a
+               non-observed event,<lb/> starting from the <placeName type="landmark">Phoenix Monument</placeName><lb/> (3.0).</p>
+               
+               <p>On Sunday there is the first of the<lb/> trials counting towards this season’s<lb/>
+               <name type="race">Hewison Trophy competition</name>, the<lb/> <name type="org">Limerick Club’s</name> <name type="race">Circuit of Clare</name>,<lb/> which
+               this year takes the place in<lb/> the series of the same club’s <name type="race">Circuit<lb/> of
+               Munster</name>. The other <name type="org">Hewison</name> event<lb/> this month is the <name type="race">Kilkenny Winter<lb/> Trial</name>
+               <date when="1956-10-28">(28th)</date>.  </p>
             
          </div>
 
