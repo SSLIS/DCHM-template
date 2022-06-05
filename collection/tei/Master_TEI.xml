@@ -31,16 +31,15 @@
          <!--page 1 (sb_03) -->
 
 
-         <div type="article" n="1.1">
-
+         <div n="article_1.1">
 
             <figure>
-               <figDesc>A black and white photograph of two motorcycle racers; Ian Williams
+               <figDesc rend="photograph">A black and white image, which is loacted at the top, centre of the article, of two motorcycle racers; Ian Williams
                   (foreground), who is raising up the front wheel of his bike, and an unidentified
-                  man (background)</figDesc>
+                  man (background).</figDesc>
                <graphic xml:id="" url=""/>
                <graphic xml:id="" url=""/>
-               <head><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
+               <head ><hi rend="case (allcaps)">CHAMPIONSHIP CHALLENGER . . .</hi></head>
                <p>Dublin rider <persName ref="#IW">Ian Williams</persName>
                   <objectName type="motorcycle">(Ariel) </objectName>who rides in to-morrow’s <name
                      type="race">Hurst Cup International Trial</name> at <placeName>Conling,
@@ -51,14 +50,14 @@
 
             <byline>By <persName role="journalist" type="person">BASIL BRINDLEY</persName></byline>
 
-            <div type="lead">
+            <div n="lead_1.1.1">
                <p><hi rend="case (allcaps)">WITH</hi> an entry of 79 for to-morrow’s <name
                      type="race">Hurst Cup Trial</name>,<lb/> officials of the <name type="org"
                      >Knock Motor Cycle Club</name> must be<lb/> feeling very happy, as 80 is the
                   maximum figure<lb/> specified on the regulations.</p>
             </div>
             <cb/>
-            <div type="section">
+            <div n="section_1.1.2">
                <p rend="bold">The international event<lb/> will be held over a number of<lb/> laps
                   in the <placeName>Clandeboye<lb/> Estate, Belfast</placeName>, and total<lb/>
                   distance will be somewhat<lb/> less than 50 miles.</p>
@@ -102,7 +101,7 @@
             </div>
 
 
-            <div type="section">
+            <div n="section_1.1.3">
                <head> Strong Ulster Bid</head>
                <p>Travelling up from the south also<lb/> with good reputations are
                      <persName>Dave<lb/> Felton</persName>
@@ -210,7 +209,7 @@
          </div>
 
 
-         <div type="article" n="1.2">
+         <div n="article_1.2">
             <p>
                <hi rend="ul">"B.B.. RUSSEL" TROPHY</hi>: The winner this year is
                      <persName>Ia<supplied>n</supplied></persName><damage type="missing"/><lb/>
@@ -222,7 +221,7 @@
                   Tracey</persName> with 6 points.</p>
          </div>
 
-         <div type="article" n="1.3">
+         <div n="article_1.3">
             <head>Slade Scramble</head>
             <byline>By <persName>BASIL BRINDLEY</persName></byline>
 
@@ -275,28 +274,29 @@
                   <unclear><supplied>(501)</supplied></unclear> (461)</unit>.</p>
          </div>
 
-         <figure>
+        <div n="photograph_1.4"> 
+           <figure>
             <figDesc>Two men ride motorcycles in a race along a grassy track. The man in the
                foreground (unidentified) is on a motorcycle marked number '47'. The man in the
                background (Ian Williams) is on a motorcyle marked number '49'</figDesc>
             <graphic xml:id="" url=""/>
             <graphic xml:id="" url=""/>
 
-         </figure>
+         </figure></div>
 
-         <figure>
+        <div n="photograph_1.5"> <figure>
             <figDesc>Two men race motorcyles in a grass field, in the lead is Ian Williams, riding a
                motorcycle marked number '34' the man behind (unidentified) rides a motorbike marked
                number '45'. In the background Two onlookers stand next to a parked car</figDesc>
             <graphic xml:id="" url=""/>
             <graphic xml:id="" url=""/>
 
-         </figure>
+         </figure></div>
 
          <pb n="1"/>
          <!--page 2 (sb_04) -->
 
-         <div type="photograph" n="2.1">
+         <div n="photograph_2.1">
             <figure>
                <figDesc>A black and white photograph of David Tye (left) Ian Williams (right)
                   sitting on stationary mud-clad motorbikes</figDesc>
@@ -309,8 +309,8 @@
 
          </div>
 
-         <div type="article" n="2.2">
-            <div type="section">
+         <div n="article_2.2">
+            <div n="section_2.2.1">
                <head>Ian Williams <lb/> Beats Brother</head>
 
                <p><hi rend="case(allcaps)"><persName ref="#IW">IAN WILLIAMS</persName></hi> returned
@@ -320,7 +320,7 @@
                   by<lb/> half a wheel.</p>
 
 
-               <div rend="results">
+               <div n="section(results)_2.2.2">
                   <p><hi rend="bold">Graded Scratch Race A </hi>-- 1. K.<lb/> Cotter (248
                      Excelsior); 2, M. D.<lb/> Thornton (197 Dot); 3, J. D.<lb/> Poynton (197 Dot).
                      5 mips. 42 secs.<lb/>
@@ -353,7 +353,7 @@
                </div>
 
 
-               <div type="section">
+               <div n="section_2.2.3">
                   <head>Results of Autocross</head>
                   <p>THE M.G. Car Club held an<lb/> autocross At Lynch Dark. Sag-<lb/> gart, Co.
                      Dublin yesterday. The<lb/> course was 1/2 mile long and each<lb/> race was over
@@ -373,15 +373,15 @@
 
          <!--page 3 (sb_06) -->
 
-         <figure>
+         <div n="photograph_3.1"><figure>
             <figDesc>A black and white photograph of a man (possibly Ian Williams) rides a
                motorcycle (marked number 5), which has it's front wheel lifted off the ground, over
                a rocky path. The motorcycle </figDesc>
             <graphic xml:id="" url=""/>
             <graphic xml:id="" url=""/>
-         </figure>
+         </figure></div>
 
-         <div type="article" n="3.1">
+         <div n="article_3.2" >
 
             <head rend="masthead"><num type="page">12</num>
                <!--add detail here-->Irish Independent, Wednesday, <date when="1956-10-03">October
@@ -393,7 +393,7 @@
 
             <byline> BY <persName>BARRY MASON</persName></byline>
             <cb/>
-            <p><hi rend="case (allcaps)">THE</hi> outstanding success of the<lb/>
+           <div n="section_3.2.1"> <p><hi rend="case (allcaps)">THE</hi> outstanding success of the<lb/>
                <name type="org">Dublin and District Motor Cycle<lb/> Club's</name> Moto-Cross last
                Saturday<lb/> indicated that there is a bright<lb/> future in this country for
                such<lb/> an event</p>
@@ -416,9 +416,9 @@
             <p>Front wheel lifting seems to be<lb/> the answer. At one particularly<lb/> tricky
                point, the course crossed a<lb/> lane. Here the less experienced were<lb/> “ jumping
                ” their machines at the<lb/> start of the crossing, landing on the<lb/> far side of
-               the lane and “ jumping ”<lb/> a second time</p>
+               the lane and “ jumping ”<lb/> a second time</p></div>
 
-            <div type="section">
+            <div n="section_3.2.2">
 
                <head rend="ul">MUCH QUICKER</head>
 
@@ -449,7 +449,7 @@
                   answer.</p>
             </div>
 
-            <div type="section">
+            <div n="section_3.2.3">
 
                <head rend="ul">BIG ATTENDANCE</head>
 
@@ -494,18 +494,20 @@
 
             </div>
          </div>
+         
+         
          <pb n="3"/>
 
          <!--page 4 (sb_08) -->
-         <div type="article" n="4.1"> </div>
+         <div n="article_4.1"> </div>
          <pb n="4"/>
 
          <!--page 5 (sb_09) -->
 
-         <div type="article" n="5.1"> </div>
+         <div n= "article_5.1"> </div>
          <pb n="5"/>
          <!--page 6 (sb_10) -->
-         <div type="article" n="6.1"> </div>
+         <div n="article_6.1"> </div>
 
          <pb n="6"/>
 
@@ -529,7 +531,7 @@
 
          </figure>
 
-         <div type="article" n="7.1">
+         <div n="article_7.1">
 
             <head>B.S.A. Works Team For<lb/> D. And D. Meeting</head>
 
@@ -586,22 +588,23 @@
          </div>
          <pb n="7"/>
          <!--page 8 (sb_15) -->
-         <div type="article" n="8.1"> </div>
+         <div n="article_8.1"> </div>
          <pb n="8"/>
          <!--page 9 (sb_17) -->
-         <div type="article" n="9.1"> </div>
+         <div n="article_9.1"> 
+         </div>
          <pb n="9"/>
 
 
          <!--page 10 (sb_20) -->
-         <div type="article" n="10.1">
-            <!---find tag for this-->
+         <div n="article_10.1">
+            
             <head rend="section heading, ul">Motor cycling</head>
 
             <head><persName>Long</persName> just<lb/> misses<lb/> hat-trick</head>
 
             <cb/>
-            <p><persName>DAVID LONG (Dodler)</persName> had a<lb rend="indentation"/> most successful day at the<lb/>
+            <div n="section_10.1.1"><p><persName>DAVID LONG (Dodler)</persName> had a<lb rend="indentation"/> most successful day at the<lb/>
                <name type="race">Irish <abbr type="acronym">M.C.C.</abbr> grasstrack races</name> at<lb/>
                <placeName>Bloomfield, Merrion road, Dublin</placeName>,<lb/> yesterday, winning the
                first race, a<lb/><name type="race"> graded scratch event</name>, and the last,<lb/>
@@ -616,9 +619,9 @@
                   <persName>lan</persName> beating <persName>Eric</persName> to win<lb/> his <name
                   type="race">graded scratch race</name> in best time<lb/> of the day, 2m. 38s., and
                Eric turn-<lb/> ing the tables in the 500 c.c. scratch,<lb/> which he won in the same
-               time.</p>
+               time.</p></div>
 
-            <p n="results">Results :—<lb rend="indentation"/>
+            <div n="section(results)_10.1.2"><p>Results :—<lb rend="indentation"/>
                <name type="race" rend="bold">Graded Scratch Race A</name>—1, D. Long<lb/> (247
                Dodler); 2. C. O’Connor (197 F/<lb/> Barnett); 3, J. D. Roche (197 Dot). Win-<lb/>
                ner’s time, 3m. 3s.<lb/>
@@ -646,11 +649,11 @@
                <name type="race" rend="bold">General Handicap Final</name>—1, D. Long <lb/> (247
                Dodler). h’cap 68s.: 2, G. D. Forde <lb/>
                <supplied>(24</supplied>4 Excelsior), 72s.; 3. C. O’Connor <lb/>
-               <supplied>(19</supplied>7 F/Barnett), 80s.; 6 38.</p>
+               <supplied>(19</supplied>7 F/Barnett), 80s.; 6 38.</p></div>
          </div>
 
 
-         <div type="article" n="10.2">
+         <div n="article_10.2">
             <div type="folio">
                <label type="publication" rend="case(allcaps)">SUNDAY REVIEW</label>
             </div>
@@ -663,13 +666,15 @@
 
                <head type="article">Big Test<lb/> Nenagh</head>
 
-               <p rend="bold"><hi rend="case (allcaps)">AT</hi> three o’clock this afternoon, the
+               <div type="lead">
+                  <p rend="bold"><hi rend="case (allcaps)">AT</hi> three o’clock this afternoon, the
                   first <date when="1958">1958</date><lb/>
                   <name type="race">motor-cycle grass-track event</name> will get<lb/> under way at
                      <placeName>Drummin Field</placeName>, just outside<lb/>
-                  <placeName>Nenagh town</placeName>.</p>
+                  <placeName>Nenagh town</placeName>.</p></div>
                <cb/>
-               <p> This is the first time that<lb/> such an honour has fallen<lb/> to a provincial
+               
+               <div type="section"><p> This is the first time that<lb/> such an honour has fallen<lb/> to a provincial
                   club.</p>
                <p rend="bold">And it is due to the fact<lb/> that the <name type="org"><choice>
                         <abbr type="acronym">I.M.C.C</abbr>
