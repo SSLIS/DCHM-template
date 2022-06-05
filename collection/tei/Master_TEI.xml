@@ -582,12 +582,64 @@
 
          <!--page 5 (sb_09) -->
 
-         <div n= "article_5.1"> </div>
+         <div n= "article_5.1">
          <pb n="5"/>
-         <!--page 6 (sb_10) -->
-         <div n="article_6.1"> </div>
-
+		 
+		 
+<!--page 6 (sb_10) -->
+         <div n="article_6.1">
+         
          <pb n="6"/>
+         
+         <figure>
+            <figDesc>A black and white photograph of a motorcycle racer; Ian Williams</figDesc>
+            <graphic xml:id="" url=""/>
+            <graphic xml:id="" url=""/>
+         </figure>
+         
+         <figure>
+            <figDesc>A black and white photograph of three motorcycle racers with some unidentified onlookers in the background</figDesc>
+            <graphic xml:id="" url=""/>
+            <graphic xml:id="" url=""/>
+            <p rend="italics">The sky's the limit . . . so thinks <persName ref="#IW">Ian <lb/>Williams</persName> as he directs his
+               <objectName type="motorcycle">Ariel</objectName>into <location>space</location>.</p>
+         </figure>
+         
+         <div n="article 1"> 
+            <head rend="case (allcaps)"><persName>WILLIAMS</persName>'S TREBLE</head>
+            <p>At the <name type="org">Dublin University Motor-cycle<lb/> and Light Car Club's</name> grass- track race meeting, <lb/>held in <placeName>Powerscourt, <abbr>Co.</abbr> Wicklow</placeName>, on<lb/>
+               Saturday. <persName xml:id="#IW">Ian Williams</persName> (<name type="motorcycle">Ariel</name>) scored a <lb/>treble and made fastest time of the day. <lb/>
+               Other winners included <persName>C.F. Scarlett</persName>, <lb/> who won two events. Results:–</p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch No. 1</name></hi></hi> – 1, <persName>K. Cotter</persName> <lb/>
+               (<name type="motorcycle">Excelsior</name>); 2. <persName>M. D. Thornton</persName> (<name type="motorcycle">Dot</name>); 3,<lb/> <persName> J. Poyrton</persName>
+               (<name type="motorcycle">Dot</name>)., 5 mins. 42 secs.
+            </p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch No. 2</name></hi></hi> – 1, <persName>G. F. Scar-<lb/>lett</persName> 
+               (<name type="motorcycle">Dot</name>), 2. <persName>F. C. Dickinson</persName> (<name type="motorcycle">Dot</name>); 3,<lb/> <persName> J. Barkley</persName>
+               (<name type="motorcycle">Sun</name>)., 5 mins. 28 secs.
+            </p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch No. 3</name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName> <lb/>
+               (<name type="motorcycle">Ariel</name>), 2. <persName>E. Williams</persName> (<name type="motorcycle">Ariel</name>); 3,<lb/> <persName>D. J. <lb/> Dixon</persName>
+               (<name type="motorcycle">Norton/Jap</name>). 5 mins. 5 secs.
+            </p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">Allcomers' Handicap Final</name></hi></hi> – 1, <persName xml:id="#IW">I.<lb/> Williams</persName> 
+               (<name type="motorcycle">Ariel</name>), <abbr>scr</abbr>.; 2. <persName>E. Williams</persName> <lb/>(<name type="motorcycle">Ariel</name>), <abbr>h'cap</abbr> 5 secs.; 3,
+               <persName>G. F. Scarlett</persName> <lb/> (<name type="motorcycle">Dot</name>), 18 secs. 5 mins. 0 secs.
+            </p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">250 c.c. scratch</name></hi></hi> – 1, <persName>G. F. Scarlett</persName> <lb/>
+               (<name type="motorcycle">Dot</name>); 2. <persName>F.C. Dickinson</persName> (<name type="motorcycle">Dot</name>); 3,
+               <persName>D. <lb/> Pearson</persName>(<name type="motorcycle">N.S.U.</name>) 5 mins, 17 secs.
+            </p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">350 c.c. scratch</name></hi></hi> – 1, <persName>D. J. Dixon</persName> <lb/>
+               (<name type="motorcycle">Norton/Jap</name>); 2. <persName>S. Foody</persName> (<name type="motorcycle">B.S.A.</name>); 3, <lb/>
+               <persName>W. E. Harris</persName>(<name type="motorcycle">B.S.A.</name>) 5 mins, 11 secs.
+            </p>
+            <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. scratch</name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName>
+               (<name type="motorcycle">Ariel</name>); <lb/> 2. <persName>E. Williams</persName> (<name type="motorcycle">Ariel</name>); 3,
+               <persName>J. Porter</persName>(<name type="motorcycle">Jap</name>), <lb/> 4 mins, 58 secs.
+            </p>
+         </div>
+         </div>
 
 
          <!--page 7 (sb_11) -->
@@ -671,6 +723,7 @@
          <!--page 9 (sb_17) -->
          <div n="article_9.1"> 
          </div>
+</div>
          <pb n="9"/>
 
 
