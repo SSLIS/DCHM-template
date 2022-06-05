@@ -1,0 +1,31 @@
+Terminology Used:
+
+
+Pictures are inside a <figure> tag with <head> and <p> for caption and details 
+- also rend for style 
+
+<hi rend/> 
+"case (allcaps)", 
+
+
+
+
+people - <persName>
+places - <placeName>
+organisations/clubs @name type="org"
+objectname @type= "motorcycle"
+
+numbers - <num type="cardinal" value="50" > - NOT defining numbers - of little value to searchablitity 
+
+Newspaper terminology: 
+
+FOLIO: A line at the top or bottom of a newspaper page that gives the newspaper name, section and page number, and publication date.
+
+intro parapgraph = type="lead"
+
+acronyms:
+
+<choice><abbr type="acronym">M.C.C.</abbr><expan><ex>Motorcycle Club</ex></expan></choice>
+
+<choice><abbr type="acronym">A.M.C.</abbr><expan><ex>Associated Motorcycles</ex></expan></choice>
+
