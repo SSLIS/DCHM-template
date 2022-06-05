@@ -580,10 +580,90 @@
             </div>
          </div>  
 
-         <!--page 5 (sb_09) -->
+<!--page 5 (sb_09) -->
 
-         <div n= "article_5.1"> </div>
-         <pb n="5"/>
+<div type="article" n="5.1"> </div>
+<pb n="5"/>
+   
+   <figure>
+      <figDesc>A black and white photograph of a motorcycle racer; Ian Williams
+         (foreground), and an unidentified group of people watching (background)</figDesc>
+      <graphic xml:id="" url=""/>
+      <graphic xml:id="" url=""/>
+   </figure>  
+   
+   <figure>
+      <figDesc>A black and white photograph of a motorcycle racer; Ian Williams
+         (foreground), and an unidentified man watching (background)</figDesc>
+      <graphic xml:id="" url=""/>
+      <graphic xml:id="" url=""/>
+   </figure>
+
+   <div n="article 1"> 
+   <head rend="case (allcaps)"><persName>WILLIAMS BROTHERS IN FORM</persName></head>
+   <p>The <name type="org">Dublin University Club</name> held a grass-<lb/> track race meeting in <placeName>Powerscourt</placeName> on Satur-<lb/>
+      day. The <persName>Williams Brother</persName> had a good <lb/> day with three wins and three places between <lb/>
+      them. <persName xml:id="#IW">Ian Williams</persName> and <persName>Ernie Lyons</persName> again <lb/> had some close tussles, <persName>Lyons</persName> winning the <lb/>
+      <name type="race">graded scratch race</name> and <persName ref="#IW">Williams</persName> the <name type="race">500 <lb/>c.c. scratch</name> in the best time of the day.<lb/>
+      Results:–</p>
+
+   <div rend="results">
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 1 </name></hi></hi> – 1, <persName>S.A. Tracey</persName> <lb/>
+         (<name type="motorcycle">James</name>), 5m. 28. s.; 2. <persName>G.T. Nolan</persName> (<name type="motorcycle">James</name>);<lb/>
+         3. <persName>D. Hughes</persName> (<name type="motorcycle">James</name>).
+      </p>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 2 </name></hi></hi> – 1, <persName>E. Williams</persName>(<name type="motorcycle">Ariel</name>),<lb/>
+          5m. 11. s.; 2. <persName>C. Pearson</persName> (<name type="motorcycle">B.S.A.</name>); 3, <persName>>G.T. <lb/>
+         Scarlett </persName> (<name type="motorcycle">Sun</name>).
+      </p>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">Graded Scratch 3 </name></hi></hi> – 1, <persName>E. Lyons</persName>(<name type="motorcycle">Triumph-<lb/>
+         J.A.P.</name>), 4m. 48. s.; 2. <persName xml:id="#IW">I. Williams</persName> (<name type="motorcycle">Ariel</name>); <lb/> 3, <persName>>E.A. Callaghan </persName> (<name type="motorcycle">R./Einfield</name>).
+      </p>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">Open Handicap</name></hi></hi> – 1, <persName>E. Williams</persName>(<name type="motorcycle">Ariel</name>),<lb/>
+         handicap 30s., time 5m. 0s.; 2. <persName xml:id="#IW">I. Williams</persName> <lb/> (<name type="motorcycle">Ariel</name>), 2s.;
+         3. <persName>G.T. Scarlett</persName> (<name type="motorcycle">Sun</name>), 35s.
+      </p>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">200 c.c. Scratch</name></hi></hi> – 1, <persName>F.C. Dickinson</persName><lb/> (<name type="motorcycle">Sun</name>),
+         5m. 3s.; 2. <persName>J. Pitchford</persName> <lb/> (<name type="motorcycle">Dot</name>); 3, <lb/>
+         <persName>G.T. Scarlett</persName> (<name type="motorcycle">Sun</name>).
+      </p>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">350 c.c. Scratch</name></hi></hi> – 1, <persName>J. D. Roche</persName><lb/> (<name type="motorcycle">B.S.A.</name>),
+         5m. 8s.; 2. <persName>C. Pearson</persName> <lb/> (<name type="motorcycle">B.S.A.</name>); <lb/>
+         3, <persName>R. Rennicks</persName> (<name type="motorcycle">B.S.A.</name>).
+      </p>
+      <p> <hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. Scratch</name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName>(<name type="motorcycle">Ariel</name>),<lb/>
+         4m. 39s.; 2. <persName>E. Lyons</persName> <lb/> (<name type="motorcycle">Triumph-J.A.P.</name>); <lb/>
+         3, <persName>E. Williams</persName> (<name type="motorcycle">Ariel</name>).
+      </p>
+   </div>
+   </div>  
+   <div n="article 2">
+      <head rend="bold">Terrific Motor <lb/> Cycle Finish</head>
+      <p><hi rend="case (allcaps)">HIGHLIGHT</hi> of the <placeName>Dun <lb/> Laoghaire</placeName> motor cycle <lb/> club's <name type="race">grass track meeting</name> at <lb/>
+         <placeName>Rochestown Avenue</placeName> yesterday <lb/> was a terrific neck - and - neck <lb/> struggle between <persName xml:id="#IW">Ian Williams</persName> <lb/>
+         (Ariel) and <persName>Mervyn Hayes</persName> (Royal <lb/> Enfield) in the senior race. For <lb/> lap after lap the pair fought it <lb/>
+         out. <persName xml:id="#IW">Williams</persName> got the verdict by <lb/> a fraction of a second.
+      </p>
+      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">500 c.c. <abbr>Scr.</abbr></name></hi></hi> – 1, <persName xml:id="#IW">I. Williams</persName>
+         (<name type="motorcycle">Ariel</name>); <lb/> 2. <persName>M. Hayes</persName> (<name type="motorcycle">Royal Enfield</name>); 3, <persName> E. <lb/> Williams</persName>
+         (<name type="motorcycle">Ariel</name>).
+      </p>
+      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">350 c.c. Class</hi></hi> – 1, <persName>D. Dixon</persName>
+         (<name type="motorcycle">Jap</name>); <lb/> 2. <persName>M. Foran</persName> (<name type="motorcycle">B.S.A</name>); 3, <persName> D. Byrne</persName> <lb/>
+         (<name type="motorcycle">B.S.A</name>).
+      </p>
+      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">250 c.c. Class</hi></hi> – 1, <persName>H. Buchanan</persName> <lb/>
+         (<name type="motorcycle">Francis Barnett</name>); 2. <persName>F. O'Reilly</persName> <lb/> (<name type="motorcycle">Tandom</name>); 3, <persName> C. O'Neill</persName>
+         (<name type="motorcycle">Dot</name>).
+      </p>   
+      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">250 c.c. heat winners</hi></hi>–<persName>Buchanan</persName> and <lb/>
+         <persName>J. McCaffe </persName>(<name type="motorcycle">Dot</name>).
+      </p>
+      <p rend="results"><hi rend="bold"><hi rend="indentation"><name type="race">General Handicap winner</hi></hi>–<persName>M. Foran</persName> <lb/>
+        (<name type="motorcycle">B.S.A.</name>).
+      </p>
+   </div>
+      
          <!--page 6 (sb_10) -->
          <div n="article_6.1"> </div>
 
