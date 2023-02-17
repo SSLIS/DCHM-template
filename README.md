@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/471756787.svg)](https://zenodo.org/badge/latestdoi/471756787)
+
 # DCHMI-template
 
 This is a template that was specifically designed to help students of the Digitising Cultural Heritage Materials (DCHM) course at the University of Borås publish their digitisation projects online with GitHub Pages. 
