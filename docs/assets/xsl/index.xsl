@@ -61,7 +61,7 @@
                                 <article id="transcription">
                                   <p>
                                     <strong>Description:</strong>
-                                    <xsl:apply-templates select="//tei:TEI//tei:figDesc"/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:sourceDesc"/>
                                   </p>
                                 </article>
                             </div>

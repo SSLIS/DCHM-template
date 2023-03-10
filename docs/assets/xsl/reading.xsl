@@ -38,34 +38,63 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (three columns) -->
+                        <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
-                            <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
                             <div class="col-">
-                                <article id="thumbnail">
-                                    <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
-                                </article>
+                                <h3>Images</h3>
                             </div>
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-md">
-                                <article id="transcript">
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
-                                </article>
+                                <h3>Transcription</h3>
                             </div>
-                            <!-- third column: empty sidebar -->
                             <div class="col-">
                             </div>
                         </div>
+                        <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
+                        <xsl:for-each select="/tei:TEI/tei:text/tei:body/tei:div[@type='page']">
+                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
+                            <xsl:variable name="pointer" select="@facs"/>
+                            <div class="row">
+                                <!-- fill the first (aka: left) column with this page's image -->
+                                <div class="col-">
+                                    <article class="thumbnail">
+                                        <!-- make an HTML <img> element, with a maximum width of 100 pixels -->
+                                        <img width="100">
+                                            <!-- give this HTML <img> attribute three more attributes:
+                                                    @src to locate the image file
+                                                    @title for a mouse-over effect
+                                                    @alt for alternative text (in case the image fails to load, 
+                                                        and so people with a visual impairment can still understant what the image displays 
+                                                  
+                                                  in the XPath expressions below, we use the variable $pointer (declared above) 
+                                                        so we can use this page's @facs element with to find the corresponding <surface>
+                                                        (because it matches with the <surface's @xml:id) 
+                                            
+                                                  we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                        we want to disregard the hashtag in the @facs attribute-->
+                                            
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($pointer, '#')]/tei:figure/tei:graphic[2]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($pointer, '#')]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($pointer, '#')]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>
+                                    </article>
+                                </div>
+                                <!-- fill the third (right) column with our transcription -->
+                                <div class='col-md'>
+                                    <article class="transcription">
+                                        <xsl:apply-templates/>                                      
+                                    </article>
+                                </div>
+                                <!-- third column: empty sidebar -->
+                                <div class="col-">
+                                </div>
+                            </div>
+                        </xsl:for-each>
                     </div>
                 </main>
                 <footer>
