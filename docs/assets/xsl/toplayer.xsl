@@ -62,9 +62,6 @@
                                     <xsl:apply-templates select="//tei:TEI//tei:text"/>
                                 </article>
                             </div>
-                            <!-- third column: empty sidebar -->
-                            <div class="col-">
-                            </div>
                         </div>
                     </div>
                 </main>
