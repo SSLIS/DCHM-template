@@ -54,7 +54,7 @@
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
                             <xsl:variable name="pointer" select="@facs"/>
                             <div class="row">
-                                <!-- fill the first (aka: left) column with this page's image -->
+                                <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
                                     <article class="scan">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
@@ -84,10 +84,7 @@
                                         </img>
                                     </article>
                                 </div>
-                                <!-- leaving the middle column empty for a generous divider between the image and the text -->
-                                <div class="col-sm">
-                                </div>
-                                <!-- fill the third (right) column with our transcription -->
+                                <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <article class="transcription">
                                             <xsl:apply-templates/>                                      
