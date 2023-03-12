@@ -46,8 +46,6 @@
                             <div class="col-md">
                                 <h3>Transcription</h3>
                             </div>
-                            <div class="col-">
-                            </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="/tei:TEI/tei:text/tei:body/tei:div[@type='page']">
