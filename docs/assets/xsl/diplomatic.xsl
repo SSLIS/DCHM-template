@@ -52,7 +52,7 @@
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
                         <xsl:for-each select="/tei:TEI/tei:text/tei:body/tei:div[@type='page']">
                             <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                            <xsl:variable name="pointer" select="@facs"/>
+                            <xsl:variable name="facs" select="@facs"/>
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
@@ -65,7 +65,7 @@
                                                     @alt for alternative text (in case the image fails to load, 
                                                         and so people with a visual impairment can still understant what the image displays 
                                                   
-                                                  in the XPath expressions below, we use the variable $pointer (declared above) 
+                                                  in the XPath expressions below, we use the variable $facs (declared above) 
                                                         so we can use this page's @facs element with to find the corresponding <surface>
                                                         (because it matches with the <surface's @xml:id) 
                                             
@@ -73,13 +73,13 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($pointer, '#')]/tei:figure/tei:graphic[1]/@url"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($pointer, '#')]/tei:figure/tei:label"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($pointer, '#')]/tei:figure/tei:figDesc"/>
+                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
                                     </article>
