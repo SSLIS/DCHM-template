@@ -26,7 +26,7 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
@@ -38,7 +38,7 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-<!-- define a row layout with bootstrap's css classes (two columns) -->
+                    <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
