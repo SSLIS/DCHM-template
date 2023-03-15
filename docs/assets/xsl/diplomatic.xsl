@@ -56,9 +56,9 @@
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
-                                    <article class="scan">
+                                    <article>
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img width="400">
+                                        <img class="img-full">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                     @src to locate the image file
                                                     @title for a mouse-over effect

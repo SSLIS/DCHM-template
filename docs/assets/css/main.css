@@ -58,3 +58,20 @@ footer {
 .row {
     padding: 1vw;
 }
+
+
+#collection {
+    display: flex;
+}
+
+.thumbnail {
+    margin: 5px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.img-full {
+    margin: 5px;
+    border: 1px solid black;
+    width: 500px;
+}
