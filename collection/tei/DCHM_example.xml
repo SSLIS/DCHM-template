@@ -22,7 +22,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-               <p>A post-it with a simple example phrase on it</p>
+               <p>A two-sided post-it with a simple example phrase on either side.</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -34,18 +34,28 @@
    <facsimile>
       <surface xml:id="postit01">
          <figure>
-            <label>Post-It 01</label>
+            <label>Post-It Front</label>
             <figDesc>
-               A photograph of a post-it with a simple example phrase.
+               A photograph of the front of a post-it with a simple example phrase.
             </figDesc>
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
          </figure>
       </surface>
+      <surface xml:id="postit02">
+         <figure>
+            <label>Post-It Back</label>
+            <figDesc>
+               A photograph of the back a post-it with a simple example phrase.
+            </figDesc>
+            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
+            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+         </figure>
+      </surface>
    </facsimile>
    <text>
       <body>
-            <pb facs="#postit01"/>
+         <div type="page" facs="#postit01">
             <head>
                <hi rend="u">DCHM Template</hi>
             </head>
@@ -53,6 +63,14 @@
                A <del>silly</del> <add>small</add> example
                <lb/>text.
             </p>
+         </div>
+         <div type="page" facs="#postit02">
+         <p>
+            The back
+            <lb/>of my
+            <lb/>Post-it
+         </p>
+      </div>
       </body>
    </text>
 </TEI>
