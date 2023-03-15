@@ -38,31 +38,32 @@
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                    <!-- define a row layout with bootstrap's css classes (two columns) -->
+<!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                               <article id="thumbnail">
-                                <img>
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface//tei:graphic[@xml:id='postit01_thumb']/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                    </xsl:attribute>
-                                </img>
-                               </article>
+                                <article id="collection">
+                                    <xsl:for-each select="//tei:surface">
+                                        <img style="width:100px;padding:5px">
+                                         <xsl:attribute name="src">
+                                             <xsl:value-of select="tei:figure/tei:graphic[2]/@url"/>
+                                         </xsl:attribute>
+                                         <xsl:attribute name="title">
+                                             <xsl:value-of select="tei:figure/tei:label"/>
+                                         </xsl:attribute>
+                                         <xsl:attribute name="alt">
+                                             <xsl:value-of select="tei:figure/tei:figDesc"/>
+                                         </xsl:attribute>
+                                     </img>                              
+                                    </xsl:for-each>
+                                </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
-                                <article id="transcription">
+                                <article id="description">
                                   <p>
-                                    <strong>Description:</strong>
-                                    <!-- print the sourceDesc description for more information on the document --> 
-                                    <xsl:apply-templates select="//tei:TEI//tei:sourceDesc"/>
+                                    <strong>Description:</strong> &#160;
+                                    <xsl:apply-templates select="//tei:sourceDesc"/>
                                   </p>
                                 </article>
                             </div>
@@ -72,11 +73,11 @@
                                     <article id="details">
                                       <p>
                                         <strong>Author:</strong><br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:author"/>
+                                        <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
                                       </p>
                                       <p>
                                         <strong>Transcription by:</strong><br/>
-                                        <xsl:apply-templates select="//tei:TEI//tei:principal"/>
+                                        <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
                                       </p>
                                     </article>
                                 </div>
